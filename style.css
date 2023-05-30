@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    direction: rtl;
+} 
+
+
+.banner{
+    height: 120px;
+    width: 100%;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 1;
+}
+
+header .header{
+    min-width: 1009px;
+    max-width: 1676px;
+}
+
+
+.logo{
+    background: url(img/logo.svg) no-repeat center;
+    display: block;
+    background-size: contain;
+    width: 300px;
+    height: 100px;
+    margin-top: 6px;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+header .header .header-right{
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+header .header-right .searchbox{
+    background: #f0f0f1;
+    border: none;
+    margin-top: 19px;
+    border-radius: 17px;
+    outline: none;
+    padding: 30px 30px 26px 14px;
+    width: 100%;
+    font-size: 30px;
+    
+}
+
+input::placeholder{
+    color: #bcbcbd;
+}
