@@ -1,55 +1,129 @@
-*{
-    padding: 0;
-    margin: 0;
-    outline: none;
-    box-sizing: border-box;
-    direction: rtl;
-} 
-
-
-.banner{
-    height: 120px;
-    width: 100%;
-    overflow: hidden;
-    object-fit: cover;
-    z-index: 1;
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+  direction: rtl;
+}
+:root {
+  --background-footer--: #f1f2f4;
+}
+.banner {
+  height: 120px;
+  width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
 }
 
-header .header{
-    min-width: 1009px;
-    max-width: 1676px;
+header .header {
+  min-width: 1009px;
+  max-width: 1676px;
 }
 
-
-.logo{
-    background: url(img/logo.svg) no-repeat center;
-    display: block;
-    background-size: contain;
-    width: 300px;
-    height: 100px;
-    margin-top: 6px;
-    margin-left: 30px;
-    margin-right: 50px;
+.logo {
+  background: url(img/logo.svg) no-repeat center;
+  display: block;
+  background-size: contain;
+  width: 300px;
+  height: 100px;
+  margin-top: 6px;
+  margin-left: 30px;
+  margin-right: 50px;
 }
 
-header .header .header-right{
-    display: flex;
-    align-items: center;
-    width: 90%;
+header .header .header-right {
+  display: flex;
+  align-items: center;
+  width: 90%;
 }
 
-header .header-right .searchbox{
-    background: #f0f0f1;
-    border: none;
-    margin-top: 19px;
-    border-radius: 17px;
-    outline: none;
-    padding: 30px 30px 26px 14px;
-    width: 100%;
-    font-size: 30px;
-    
+header .header-right .searchbox {
+  background: #f0f0f1;
+  border: none;
+  margin-top: 19px;
+  border-radius: 17px;
+  outline: none;
+  padding: 30px 30px 26px 14px;
+  width: 100%;
+  font-size: 30px;
 }
 
-input::placeholder{
-    color: #bcbcbd;
+input::placeholder {
+  color: #bcbcbd;
 }
+
+/* code css properties footer [START] */
+#footer {
+  background-color: rgb(255, 255, 255);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+/* code css properties footer-container [START] */
+#footer-container {
+  text-align: center;
+}
+
+/* code css properties onvan-footer [START] */
+.onvan-footer {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 2.17;
+}
+/* code css properties onvan-footer [END] */
+
+/* code css properties logos [START] */
+.logos {
+  margin-top: 20px;
+  background-color: #f1f2f4;
+}
+
+/* css code properties logo-up [START] */
+.logo-up {
+  display: inline-flex;
+}
+.logo-up a {
+  width: 150px;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.logo-up a:first-of-type {
+  border-right: none;
+}
+.logo-up div {
+  height: 20px;
+}
+.logo-up img {
+  object-fit: contain;
+}
+
+/* css code properties logo-up [END] */
+
+/* css code properties logo-down [START] */
+.logo-down {
+  display: inline-flex;
+}
+.logo-down a {
+  width: 150px;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.logo-down a:first-of-type {
+  border-right: none;
+}
+.logo-down div {
+  height: 20px;
+}
+.logo-down img {
+  object-fit: contain;
+}
+/* css code properties logo-down [END] */
+/* css code properties logos [END] */
+/* code css properties footer-container [END] */
+/* code css properties footer [END] */
