@@ -5,8 +5,19 @@
   box-sizing: border-box;
   direction: rtl;
 }
+
+@font-face {
+  font-family: sans-serif;
+  src: url(fonts/Aaargh.ttf);
+}
+
 :root {
   --background-footer--: #f1f2f4;
+  --background-paszaminha--: #fff;
+  --container-width--: 1400px;
+  --padding-img-namad-v-kasbokar-darbaksh-atmad: 13px 20px 13px 20px;
+  --color-matn-bishtar: #19bfd3;
+  --font-family--:sans-serif;
 }
 .banner {
   height: 120px;
@@ -53,22 +64,131 @@ input::placeholder {
   color: #bcbcbd;
 }
 
-/* code css properties footer [START] */
-#footer {
-  background-color: rgb(255, 255, 255);
+/* css code properties digikala [START] */
+#digikala{
+  background-color: gray;
+}
+
+/* css code properties digikala-container [START] */
+#digikala-container{
+  margin: 0 auto;
+  width: 1400px;
+}
+
+/* css code properties header-digikala [START] */
+#header-digikala{
+  display: flex;
+}
+/* css code properties header-digikala [end] */
+/* css code properties digikala-container [END] */
+/* caa code properties digikala [END] */
+
+
+
+/* css code properties section-atmad [START] */
+#section-atmad {
+  background-color: var(--background-paszaminha--);
+}
+
+/* css code properties atmad-container [START] */
+#atmad-container {
+  width: 1400px;
   margin: 0 auto;
   display: flex;
-  flex-direction: column;
+  border-top: 1px solid rgba(128, 128, 128, 0.164);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.164);
+}
+
+/* css code properties matn-ha [START] */
+.matn-ha {
+  font-family: var(--font-family--);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 30px;
+  margin-right: 15px;
+  width: 71%;
+}
+.matn-ha h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2.1;
+}
+.matn-ha h3:hover{
+  cursor:default;
+}
+.matn-ha p{
+  line-height: 2.1;
+}
+.matn-ha p:hover{
+  cursor:default;
+}
+.matn-ha span {
+  color: var(--color-matn-bishtar);
+}
+.matn-ha span:hover{
+  cursor:pointer;
+}
+/* css code properties matn-ha [END] */
+
+/* css code properties logoHay-atmad [START] */
+.logoHay-atmad {
+  display: flex;
+  margin-top: 70px;
+  width: 17%;
+}
+
+.logoHay-atmad:hover{
+  cursor:pointer;
+}
+/* css code properties rezi [START] */
+.rezi img {
+  padding: 13px 20px 10px 20px;
+  margin-left: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.164);
+  border-radius: 7px;
+  width: 100px;
+}
+/* css code properties rezi [END] */
+
+/* css code properties kasbokar [START] */
+.kasbokar img {
+  padding: var(--padding-img-namad-v-kasbokar-darbaksh-atmad);
+  margin-left: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.164);
+  border-radius: 7px;
+  width: 83px;
+}
+/* css code properties kasbokar [END] */
+
+/* css code properties namad [START] */
+.namad img {
+  padding: var(--padding-img-namad-v-kasbokar-darbaksh-atmad);
+  border: 1px solid rgba(128, 128, 128, 0.164);
+  border-radius: 7px;
+  width: 93px;
+}
+/* css code properties namad [END] */
+/* css code properties logoHay-atmad [END] */
+/* css code properties atmad-container [END] */
+/* css code properties section-atmad [END] */
+
+
+
+/* code css properties footer [START] */
+#footer {
+  background-color: var(--background-paszaminha);
 }
 
 /* code css properties footer-container [START] */
 #footer-container {
+  width: var(--container-width--);
+  margin: 0 auto;
   text-align: center;
 }
 
 /* code css properties onvan-footer [START] */
 .onvan-footer {
-  font-size: 1.1rem;
+  margin-top: 23px;
   font-weight: 400;
   line-height: 2.17;
 }
@@ -77,12 +197,13 @@ input::placeholder {
 /* code css properties logos [START] */
 .logos {
   margin-top: 20px;
-  background-color: #f1f2f4;
+  background-color: var(--background-footer--);
 }
 
 /* css code properties logo-up [START] */
 .logo-up {
   display: inline-flex;
+  box-sizing: border-box;
 }
 .logo-up a {
   width: 150px;
@@ -106,6 +227,7 @@ input::placeholder {
 /* css code properties logo-down [START] */
 .logo-down {
   display: inline-flex;
+  box-sizing: border-box;
 }
 .logo-down a {
   width: 150px;
