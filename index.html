@@ -46,7 +46,7 @@
                         <li class="menuRight">
                             <ul>
                                 <li>
-                                    <i class="fa-solid fa-bars" style="color: rgb(70, 69, 69); font-size: 16px; margin-left: 5px; margin-bottom: 5px;" ></i>
+                                    <i style="color: rgb(90, 88, 88); font-size: 15px; margin-right: 18px; margin-top: 5px;" class="fa-solid fa-bars"></i>
                                     <a href="#">دسته بندی کالاها</a>
                                 </li>
                                 <li><i class="fa-solid fa-store" style="color: rgb(148, 148, 148);font-size: 14px;"></i><a href="#">سوپر مارکت</a></li>
@@ -78,17 +78,47 @@
             <main>
                <article>
                <section>
-                <swiper-container class="mySwiper" navigation="true" pagination="true" keyboard="true" mousewheel="true"
-                css-mode="true">
-                <swiper-slide><a href="#" title="جعبه رو باز کن"><img src="img/photo1.webp" alt=""></a></swiper-slide>
-                <swiper-slide><a href="#" title="خونه نقلی"><img src="img/photo2.webp" alt=""></a></swiper-slide>
-                <swiper-slide><a href="#" title="بهترین برند های تیشرت مردانه"><img src="img/photo3.webp" alt=""></a></swiper-slide>
-                <swiper-slide><a href="#" title="بهترین قیمت"><img src="img/photo4.webp" alt=""></a></swiper-slide>
-                <swiper-slide><a href="#" title="لباس خواب و راحتی زنانه"><img src="img/photo5.webp" alt=""></a></swiper-slide>
-                <swiper-slide><a href="#" title="خرید اعتباری"><img src="img/gif.gif" alt=""></a></swiper-slide>
+                <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+                centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+                <swiper-slide>
+                    <a href="#" title="جعبه رو باز کن"><img src="img/photo1.webp" alt=""></a>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <a href="#" title="خونه نقلی"><img src="img/photo2.webp" alt=""></a> 
+                </swiper-slide>
+
+                <swiper-slide>
+                    <a href="#" title="بهترین برندهای تیشرت مردانه"><img src="img/photo3.webp" alt=""></a>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <a href="#" title="خرید اقساطی"><img src="img/photo4.webp" alt=""></a>
+                </swiper-slide>
+
+                <swiper-slide>
+                    <a href="#" title="لباس خواب و راحتی زنانه"><img src="img/photo5.webp" alt=""></a>
+                </swiper-slide>
+
+                <swiper-slide>
+                   <a href="#" title="خرید اعتباری"><img src="img/gif.gif" alt=""></a>
+                </swiper-slide>
+
+                <div class="autoplay-progress" slot="container-end">
+                  <svg viewBox="0 0 48 48">
+                    <circle cx="24" cy="24" r="20"></circle>
+                  </svg>
+                  <span></span>
+                </div>
               </swiper-container>
                </section>
                </article>
+
+               <section>
+                 <div class="container-for">
+
+                 </div>
+               </section>
 
 
                <section>
@@ -141,10 +171,588 @@
                             <p class="icontext">بیشتر</p>
                         </a>
                     </div>
+                </div>
+               </section>
 
+               <article class="special">
+                <section class="slider container">
+                   <div class="right">
+                    <a class="baner" href="#">
+                        <img src="img/Amazings.svg" alt="">
+                        <img src="img/box.png" alt="">
+                    </a>
+                    <div class="showall">
+                        <h4>مشاهده همه</h4>
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                   </div>
+                   <div class="swiper">
+                    <div class="swiper-wrapper" style="width: 85%;">
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img style="margin-top: 7px;" src="img/tv.webp" alt="">
+                            </div>
+                            <div class="price">
+                            <div class="top">
+                                <span class="precent">20%</span>
+                                <span class="number">40,000,000 تومان</span>
+                            </div>
+                               <div><del></del></div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img style="margin-top: 7px;" src="img/speaker.webp" alt="">
+                            </div>
+                            <div class="price">
+                                <div class="top">
+                                    <span class="precent">15%</span>
+                                    <span class="number">10,500,00 تومان</span>
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img style="margin-top: 7px;" src="img/comon.webp" alt="">
+                            </div>
+                            <div class="price">
+                                <div class="top">
+                                    <span class="precent">10%</span>
+                                    <span class="number">57,500 تومان</span>
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img style="margin-top: 7px;" src="img/bokhor.webp" alt="">
+                            </div>
+                            <div class="price">
+                                <div class="top">
+                                    <span class="precent">25%</span>
+                                    <span class="number">15,000,000 تومان</span>
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img style="margin-top: 7px;" src="img/kafsh.webp" alt="">
+                            </div>
+                            <div class="price">
+                                <div class="top">
+                                    <span class="precent">35%</span>
+                                    <span class="number">12,000,000 تومان</span>
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img style="margin-top: 7px;" src="img/kifebache.webp" alt="">
+                            </div>
+                            <div class="price">
+                                <div class="top">
+                                    <span class="precent">10%</span>
+                                    <span class="number">250,000 تومان</span>
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img style="margin-top: 7px;" src="img/lebasbache.webp" alt="">
+                            </div>
+                            <div class="price">
+                                <div class="top">
+                                    <span class="precent">30%</span>
+                                    <span class="number">350,000 تومان</span>
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img style="margin-top: 7px;" src="img/qahvesaz.webp" alt="">
+                            </div>
+                            <div class="price">
+                                <div class="top">
+                                    <span class="precent">40%</span>
+                                    <span class="number">10,800,000 تومان</span>
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img style="margin-top: 7px;" src="img/pomp.webp" alt="">
+                            </div>
+                            <div class="price">
+                                <div class="top">
+                                    <span class="precent">15%</span>
+                                    <span class="number">7,500,000 تومان</span>
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                      <div class="swiper-slide">
+                        <a href="#">
+                            <div class="img">
+                                <img style="margin-top: 7px;" src="img/barq.webp" alt="">
+                            </div>
+                            <div class="price">
+                                <div class="top">
+                                    <span class="precent">10%</span>
+                                    <span class="number">5,000,000 تومان</span>
+                                </div>
+                            </div>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                  </div>
                     
-                    
+                </section>
+               </article>
 
+               <section>
+                <div class="container">
+                  <div class="super-marketi">
+                   <div class="super-right">
+                    <div><a href="#"><img class="sabad" src="img/sabadkala.png" alt=""></a></div>
+                    <div><a href="#"><img class="superi" src="img/superi1.svg" alt=""></a></div>
+                    <div class="takhfif">
+                        <a href="#"><h3>تا 50% تخفیف</h3></a>
+                    </div>
+                   </div>
+                   <div class="super-left">
+                      <div><a href="#">
+                        <img src="img/shampoo.webp" alt="">
+                        <div class="darsad-takhfif">17%</div>
+                      </a>
+                    </div>
+                      <div><a href="#">
+                        <img src="img/panir.webp" alt="">
+                        <div class="darsad-takhfif">15%</div>
+                      </a></div>
+                      <div><a href="#">
+                        <img src="img/konserv.webp" alt="">
+                        <div class="darsad-takhfif">39%</div>
+                      </a></div>
+                      <div><a href="#">
+                        <img src="img/roghan1.webp" alt="">
+                        <div class="darsad-takhfif">31%</div>
+                      </a></div>
+                      <div><a href="#">
+                        <img src="img/cheetoz.webp" alt="">
+                        <div class="darsad-takhfif">26%</div>
+                      </a></div>
+                      <div><a href="#">
+                        <img src="img/percil.webp" alt="">
+                        <div class="darsad-takhfif">15%</div>
+                      </a></div>
+                      <div class="kalaha">
+                        <a href="#"><h3>بیش از 90 کالا</h3></a>
+                        <i class="fa-solid fa-arrow-left"></i>
+                      </div>
+                    </div>
+                </div>
+                  </div>
+                </div>
+               </section>
+
+
+               <section>
+                <div class="container">
+                    <div class="banners">
+                        <div><a title="کفش کوهنوردی و ورزش" href="#"><img src="img/baner11.webp" alt=""></a></div>
+                        <div><a title="پارتنر شیپ-تولیپس" href="#"><img src="img/baner22.webp" alt=""></a></div>
+                        <div><a title="ابگرمکن" href="#"><img src="img/baner33.webp" alt=""></a></div>
+                        <div><a title="کولر" href="#"><img src="img/banner44.webp" alt=""></a></div>
+                        
+                    </div>
+                </div>
+               </section>
+
+               <section>
+                <div class="container">
+                    <div class="all-section">
+                        <div class="dastebandi-title">
+                            <h3>دسته بندی های دیجی‌کالا</h3>
+                        </div>
+                        <div class="dastebandi-photos">
+                            <span>
+                                <a class="boxes" href="#">
+                                    <div>
+                                        <img src="img/13promax.webp" alt="">
+                                        </img>
+                                    </div>
+                                    <p>موبایل</p>
+                                </a>
+                            </span>
+                            <span>
+                                <a class="boxes" href="#">
+                                    <div>
+                                        <img src="img/hedphonsa.webp" alt="">
+                                        </img>
+                                    </div>
+                                    <p>کالای دیجیتال</p>
+                                </a>
+                            </span><span>
+                                <a class="boxes" href="#">
+                                    <div>
+                                        <img src="img/qoori.webp" alt="">
+                                        </img>
+                                    </div>
+                                    <p>خانه و اشپزخانه</p>
+                                </a>
+                            </span><span>
+                                <a class="boxes" href="#">
+                                    <div>
+                                        <img src="img/kifkafshb.webp" alt="">
+                                        </img>
+                                    </div>
+                                    <p>مد و پوشاک</p>
+                                </a>
+                            </span><span>
+                                <a class="boxes" href="#">
+                                    <div>
+                                        <img src="img/shirnoon.webp" alt="">
+                                        </img>
+                                    </div>
+                                    <p>کالاهای سوپرمارکتی</p>
+                                </a>
+                            </span><span>
+                                <a class="boxes" href="#">
+                                    <div>
+                                        <img src="img/neveshtafzar.webp" alt="">
+                                        </img>
+                                        <p>کتاب,لوازم تحریر و هنر</p>
+                                    </div>
+                                </a>
+                            </span><span>
+                                <a class="boxes boxtwo" href="#">
+                                    <div>
+                                        <img src="img/asbabbazi.webp" alt="">
+                                        </img>
+                                    </div>
+                                    <p>اسباب بازی,کودک و نوزاد</p>
+                                </a>
+                            </span><span>
+                                <a class="boxes boxtwo" href="#">
+                                    <div>
+                                        <img src="img/zhilet.webp" alt="">
+                                        </img>
+                                    </div>
+                                    <p>زیبایی و سلامت</p>
+                                </a>
+                            </span><span>
+                                <a class="boxes boxtwo" href="#">
+                                    <div>
+                                        <img src="img/tenis.webp" alt="">
+                                        </img>
+                                    </div>
+                                    <p>ورزش و سفر</p>
+                                </a>
+                            </span><span>
+                                <a class="boxes boxtwo" href="#">
+                                    <div>
+                                        <img src="img/dereyl.webp" alt="">
+                                        </img>
+                                    </div>
+                                    <p>ابزار,لوازم ساختمانی و صنعتی</p>
+                                </a>
+                            </span><span>
+                                <a class="boxes boxtwo" href="#">
+                                    <div>
+                                        <img src="img/mashinn.webp" alt="">
+                                        </img>
+                                    </div>
+                                    <p>خودرو و موتوسیکلت</p>
+                                </a>
+                            </span><span>
+                                <a class="boxes boxtwo" href="3">
+                                    <div>
+                                        <img src="img/sonati.webp" alt="">
+                                        </img>
+                                    </div>
+                                    <p>محصولات بومی و محلی</p>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+               </section>
+
+               <section>
+                <div class="container">
+                    <div class="banners-two">
+                        <div>
+                            <a title="پارتنرشیپ - SW1991" href="#">
+                               <img src="img/banner66.webp" alt=""> 
+                            </a>
+                        </div>
+                        <div>
+                            <a title="سیاه و ماسالا - انواع چای - تایپ بی" href="#">
+                                <img src="img/77.webp" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+               </section>
+
+
+               <section>
+                <div class="container">
+                    <div class="all-section">
+                        <div class="dastebandi-title">
+                            <h3>پیشنهاد دیجی‌کالا</h3>
+                        </div>
+                        <div class="pishnahadat-photos">
+                            <div class="pishnahad-right">
+                                <a href="#">
+                                    <div class="item">
+                                      <img class="item-pishnhad" src="img/iphone13.jpg" alt="">
+                                    </div>
+                                    <div class="item-text">گوشی موبایل</div>
+                                </a>
+                            </div>
+                            <div class="pishnahad-center">
+                                <a href="#">
+                                    <div class="item">
+                                      <img class="item-pishnhad" src="img/saat.jpg" alt="">
+                                    </div>
+                                    <div class="item-text">ساعت هوشمند</div>
+                                </a>
+                            </div>
+                            <div class="pishnahad-center">
+                                <a href="#">
+                                    <div class="item">
+                                      <img class="item-pishnhad" src="img/ps5.jpg" alt="">
+                                    </div>
+                                    <div class="item-text" id="ps5">کنسول خانگی</div>
+                                </a>
+                            </div>
+                            <div class="pishnahad-center">
+                                <a href="#">
+                                    <div class="item">
+                                      <img class="item-pishnhad" src="img/cg.jpg" alt="">
+                                    </div>
+                                    <div class="item-text" id="motor">موتور سیکلت</div>
+                                </a>
+                            </div>
+                            <div class="pishnahad-center">
+                                <a href="#">
+                                    <div class="item">
+                                      <img class="item-pishnhad" src="img/jorabmard.jpg" alt="">
+                                    </div>
+                                    <div class="item-text" id="jorab">جوراب مردانه</div>
+                                </a>
+                            </div>
+                            <div class="pishnahad-center">
+                                <a href="#">
+                                    <div class="item">
+                                      <img class="item-pishnhad" src="img/tablet.jpg" alt="">
+                                    </div>
+                                    <div class="item-text" id="tablet">تبلت</div>
+                                </a>
+                            </div>
+                            <div class="pishnahad-left">
+                                <a href="#">
+                                    <div class="item">
+                                      <img class="item-pishnhad" src="img/kabl.jpg" alt="">
+                                    </div>
+                                    <div class="item-text">کابل شارژر و مبدل</div>
+                                </a>
+                            </div>
+                           
+                        </div>
+                    </div>
+                    <div class="pishnahadat-photos-two">
+                        <div class="pishnahad-right-two">
+                            <a href="#">
+                                <div class="item">
+                                  <img class="item-pishnhad" src="img/iphonw13,2.jpg" alt="">
+                                </div>
+                                <div class="item-text">کیف و کاور گوشی
+                                </div>
+                            </a>
+                        </div>
+                        <div class="pishnahad-center">
+                            <a href="#">
+                                <div class="item">
+                                  <img class="item-pishnhad" src="img/saat2.jpg" alt="">
+                                </div>
+                                <div class="item-text">هدفون,هدست و...</div>
+                            </a>
+                        </div>
+                        <div class="pishnahad-center">
+                            <a href="#">
+                                <div class="item">
+                                  <img class="item-pishnhad" src="img/ps52.jpg" alt="">
+                                </div>
+                                <div class="item-text">لپ تاپ و الترابوک</div>
+                            </a>
+                        </div>
+                        <div class="pishnahad-center">
+                            <a href="#">
+                                <div class="item">
+                                  <img class="item-pishnhad" src="img/cg2.jpg" alt="">
+                                </div>
+                                <div class="item-text">اسپیکر (بلندگو)</div>
+                            </a>
+                        </div>
+                        <div class="pishnahad-center">
+                            <a href="#">
+                                <div class="item">
+                                  <img class="item-pishnhad" src="img/cg22.jpg" alt="">
+                                </div>
+                                <div class="item-text" id="docharkhe">دورچرخه</div>
+                            </a>
+                        </div>
+                        <div class="pishnahad-center">
+                            <a href="#">
+                                <div class="item">
+                                  <img class="item-pishnhad" src="img/tablet2.jpg" alt="">
+                                </div>
+                                <div class="item-text" id="short">شورت زنانه</div>
+                            </a>
+                        </div>
+                        <div class="pishnahad-left-two">
+                            <a href="#">
+                                <div class="item">
+                                  <img class="item-pishnhad" src="img/kabl2.jpg" alt="">
+                                </div>
+                                <div class="item-text" id="panke">پنکه</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+               </section>
+
+               <section>
+                <div class="container">
+                    <div class="all-section">
+                        <div class="brands">
+                            <div class="title-brand">
+                            <i class="fa-solid fa-star" style="color: yellow;"></i>
+                            <h3>محبوب ترین برندها</h3>
+                            </div>
+                            <div class="brand">
+                                <div class="item-brand"><a href="#"><img class="brand-img" src="img/pril.png" alt=""></a></div>
+                                <div class="item-brand"><a href=""><img class="brand-img" src="img/percil.png" alt=""></a></div>
+                                <div class="item-brand"><a href=""><img class="brand-img" src="img/kingstar.png" alt=""></a></div>
+                                <div class="item-brand"><a href=""><img class="brand-img" id="power" src="img/power.png" alt=""></a></div>
+                                <div class="item-brand"><a href=""><img class="brand-img" src="img/huawei.png" alt=""></a></div>
+                                <div class="item-brand"><a href=""><img class="brand-img" src="img/MA.png" alt=""></a></div>
+                                <div class="item-brand"><a href=""><img class="brand-img" src="img/noor.jpg" alt=""></a></div>
+                                <div class="item-brand" id="samsong"><a href=""><img class="brand-img" src="img/samsong.jpg" alt=""></a></div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               </section>
+
+               <section>
+                <div class="container">
+                    <div class="all-section">
+                        <div class="vasayel-hoshmand">
+                           <div class="right-hoshmand">
+                            <div class="title-hosh">
+                                <h3>گوشی موبایل</h3>
+                            </div>
+                            <div class="text-hosh">
+                                <p>براساس بازدیدهای شما</p>
+                            </div>
+                                <div class="img-hosh">
+                                   <a class="image-hoshmand" href="#">
+                                       <span>
+                                        <div>
+                                            <img src="img/goshi1.jpg" alt="">
+                                        </div>
+                                       </span>
+                                   </a>
+                                   <a class="image-hoshmand" href="#">
+                                    <span>
+                                        <div>
+                                            <img src="img/goshi2.jpg" alt="">
+                                        </div>
+                                    </span>
+                                   </a>
+                                   <a class="image-hoshmand" href="#">
+                                    <span>
+                                        <div>
+                                            <img src="img/goshi3.jpg" alt="">
+                                        </div>
+                                    </span>
+                                   </a>
+                                   <a class="image-hoshmand" href="#">
+                                    <span>
+                                        <div>
+                                            <img src="img/goshi4.jpg" alt="">
+                                        </div>
+                                    </span>
+                                   </a>
+                                </div>
+                                <div class="moshahede">
+                                    <a href="#">
+                                        <h4>مشاهده</h4>
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                    </a>
+                                </div>
+                                <div class="title-hosh-two">
+                                   <h3>کیف و کاور گوشی</h3>
+                                </div>
+                                <div class="text-hosh-two">
+                                    <p>براساس بازدیدهای شما</p>
+                                </div>
+                                <div class="img-hosh-two">
+                                    <a class="image-hoshmand-two" href="#">
+                                        <span>
+                                         <div>
+                                             <img src="img/qabe1.jpg" alt="">
+                                         </div>
+                                        </span>
+                                    </a>
+                                    <a class="image-hoshmand-two" href="#">
+                                        <span>
+                                         <div id="qab2">
+                                             <img src="img/qabe2.jpg" alt="">
+                                         </div>
+                                        </span>
+                                    </a>
+                                    <a class="image-hoshmand-two" href="#">
+                                        <span>
+                                         <div id="qab2">
+                                             <img src="img/qabe3.jpg" alt="">
+                                         </div>
+                                        </span>
+                                    </a>
+                                    <a class="image-hoshmand-two" href="#">
+                                        <span>
+                                         <div id="qab2">
+                                             <img src="img/qabe4.jpg" alt="">
+                                         </div>
+                                        </span>
+                                    </a>
+                                </div>
+                           </div>
+                        </div>
+                    </div>
                 </div>
                </section>
 
@@ -397,7 +1005,47 @@
 
 
     
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      const progressCircle = document.querySelector(".autoplay-progress svg");
+      const progressContent = document.querySelector(".autoplay-progress span");
+  
+      const swiperEl = document.querySelector("swiper-container");
+      swiperEl.addEventListener("autoplaytimeleft", (e) => {
+        const [swiper, time, progress] = e.detail;
+        progressCircle.style.setProperty("--progress", 1 - progress);
+        progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+      });
+    </script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+  var swiper = new Swiper('.swiper', {
+    slidesPerView: 3,
+    spaceBetween:2,
+    direction: getDirection(),
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    on: {
+      resize: function () {
+        swiper.changeDirection(getDirection());
+      },
+    },
+  });
+
+  function getDirection() {
+    var windowWidth = window.innerWidth;
+    var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
+
+    return direction;
+  }
+</script>
 </body>
 
 </html>
