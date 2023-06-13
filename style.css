@@ -9,6 +9,7 @@
 
 body{
   position: relative;
+  max-width: 1350px;
 }
 
 a{
@@ -33,6 +34,8 @@ li{
   --padding-img-namad-v-kasbokar-darbaksh-atmad: 13px 20px 13px 20px;
   --color-matn-bishtar: #19bfd3;
   --font-family--:sans-serif;
+  --color-border--: rgba(128, 128, 128, 0.164);
+  --width-aks-ha-mhasolast-montakab--: 145px;
 }
 .banner {
   height: 60px;
@@ -234,7 +237,7 @@ swiper-slide img {
 }
 
 
-.container-three{
+.more-option{
   display: flex;
   flex-direction: row;
   padding: 60px 50px 60px 50px;
@@ -321,8 +324,8 @@ main .special{
   position: absolute;
   right: 75px;
   bottom: 6px;
-  
 }
+
 
 @media (max-width: 760px) {
   .swiper-button-next {
@@ -335,23 +338,27 @@ main .special{
     transform: rotate(90deg);
   }
 }
-
+  
 .swiper-slide .img img{
   width: 150px;
   height: 195px;
-  
+
   object-fit: contain;
   
-}
+} 
+ 
+.swiper-slide .img{
+  width: 50px;
+} 
 
 .swiper-slide{
   margin-top: 40px;
   background-color: #fff;
-}
+} 
 
 .price{
   display: flex;
-}
+}  
 
 
 .price .number{
@@ -734,19 +741,6 @@ main .special{
   bottom: 522px;
 }
 
-.title-hosh-two{
-  position: absolute;
-  right: 400px;
-  bottom: 875px;
-}
-
-.text-hosh-two{
-  position: absolute;
-  right: 400px;
-  bottom: 845px;
-  color: #6e6e6e;
-}
-
 .img-hosh-two{
   display: grid;
   align-items: stretch;
@@ -762,8 +756,6 @@ main .special{
   
 }
 
-
-
 .image-hoshmand-two{
   display: flex;
   position: relative;
@@ -772,41 +764,1226 @@ main .special{
 
 
 
-/* css code properties digikala [START] */
-#digikala{
-  background-color: gray;
+/* css code properties montakab-mhasolat [START] */
+#montakab-mhasolat {
+  background-color: #fff;
 }
 
-/* css code properties digikala-container [START] */
-#digikala-container{
-  margin: 0 auto;
-  width: 1350px;
+/* css code properties montakab-container [START] */
+#montakab-container {
+  width: 1355.6px;
+  text-align: center;
+  margin: 0 auto; 
+  border: 1px solid gray;
+  border-radius: 10px;
 }
 
-/* css code properties header-digikala [START] */
-#header-digikala{
+/* CSS CODE PROPERTIES onvan-montakab [START] */
+#onvan-montakab{
+  margin-top: 20px;
+}
+
+#onvan-montakab span {
+  font-size: 1.5rem;
+  line-height: 2.1rem;
+  font-weight: 500;
+}
+/* css code properties onvan-montakab [END] */
+
+/* CSS CODE PROPERTIES section-mhasolat-ha [START] */
+#section-mhasolat-ha {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+/* css code properties section-mhasolat-1 [START] */
+#section-mhasolat-1 {
   display: flex;
 }
+
+/* css code properties tokm-morg [START] */
+.tokm-morg {
+  border-left: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  cursor: pointer;
+}
+.tokm-morg > span {
+  font-size: 1.6rem;
+  color: red;
+}
+.tokm-morg img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.tokm-morg > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-morg [STRAT] */
+.ghimat-morg {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-morg > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 7px;
+}
+.ghimat-morg > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-morg [START] */
+/* css code properties tokm-morg [END] */
+
+/* css code properties mast-max [START] */
+.mast-max {
+  border-left: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  cursor: pointer;
+}
+.mast-max > span {
+  font-size: 1.6rem;
+  color: red;
+}
+.mast-max img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.mast-max > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-mast-max [STRAT] */
+.ghimat-mast-max {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-mast-max > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 7px;
+}
+.ghimat-mast-max > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-mast-max [START] */
+/* css code properties mast-max [END] */
+
+/* css code properties rogan-ladan [START] */
+.rogan-ladan {
+  border-left: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  cursor: pointer;
+}
+.rogan-ladan > span {
+  font-size: 1.6rem;
+  color: red;
+}
+.rogan-ladan img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.rogan-ladan > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-rogan-ladan [STRAT] */
+.ghimat-rogan-ladan {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-rogan-ladan > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 7px;
+}
+.ghimat-rogan-ladan > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-rogan-ladan [START] */
+/* css code properties rogan-ladan [END] */
+
+/* css code properties mast-sabo [START] */
+.mast-sabo {
+  border-left: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  cursor: pointer;
+}
+.mast-sabo > span {
+  font-size: 1.6rem;
+  color: red;
+}
+.mast-sabo img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.mast-sabo > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-mast-sabo [STRAT] */
+.ghimat-mast-sabo {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-mast-sabo > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 7px;
+}
+.ghimat-mast-sabo > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-mast-sabo [START] */
+/* css code properties mast-sabo [END] */
+
+/* css code properties shampo [START] */
+.shampo {
+  border-left: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  cursor: pointer;
+}
+.shampo > span {
+  font-size: 1.6rem;
+  color: red;
+}
+.shampo img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.shampo > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-shampo [STRAT] */
+.ghimat-shampo {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-shampo > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 7px;
+}
+.ghimat-shampo > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-shampo [START] */
+/* css code properties shampo [END] */
+
+/* css code properties rogan-gonche [START] */
+.rogan-gonche {
+  border-bottom: 1px solid rgb(231, 231, 231);
+  cursor: pointer;
+}
+.rogan-gonche > span {
+  font-size: 1.6rem;
+  color: red;
+}
+.rogan-gonche img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.rogan-gonche > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-rogan-gonche [STRAT] */
+.ghimat-rogan-gonche {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-rogan-gonche > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 3px;
+}
+.ghimat-rogan-gonche > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-rogan-gonche [START] */
+/* css code properties rogan-gonche [END] */
+/* css code properties section-mhasolat-1 [END] */
+
+/* css code properties section-mhasolat-2 [START] */
+#section-mhasolat-2 {
+  display: flex;
+}
+
+/* css code properties battry [START] */
+.battry {
+  border-left: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  cursor: pointer;
+}
+.battry > span {
+  font-size: 1.6rem;
+  color: red;
+  margin-right: 15px;
+}
+.battry img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.battry > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-battry [STRAT] */
+.ghimat-battry {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-battry > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 7px;
+}
+.ghimat-battry > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-battry [START] */
+/* css code properties battry [END] */
+
+/* css code properties mokorani [START] */
+.mokorani {
+  border-left: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  cursor: pointer;
+}
+.mokorani > span {
+  font-size: 1.6rem;
+  color: red;
+  margin-right: 15px;
+}
+.mokorani img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.mokorani > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-mokorani [STRAT] */
+.ghimat-mokorani {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-mokorani > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 7px;
+}
+.ghimat-mokorani > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-mokorani [START] */
+/* css code properties mokorani [END] */
+
+/* css code properties sibzamini [START] */
+.sibzamini {
+  border-left: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  cursor: pointer;
+}
+.sibzamini > span {
+  font-size: 1.6rem;
+  color: red;
+  margin-right: 15px;
+}
+.sibzamini img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.sibzamini > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-sibzamini [STRAT] */
+.ghimat-sibzamini {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-sibzamini > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 7px;
+}
+.ghimat-sibzamini > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-sibzamini [START] */
+/* css code properties sibzamini [END] */
+
+/* css code properties golnar [START] */
+.golnar {
+  border-left: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  cursor: pointer;
+}
+.golnar > span {
+  font-size: 1.6rem;
+  color: red;
+  margin-right: 15px;
+}
+.golnar img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.golnar > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-golnar [STRAT] */
+.ghimat-golnar {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-golnar > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 7px;
+}
+.ghimat-golnar > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-golnar [START] */
+/* css code properties golnar [END] */
+
+/* css code properties soya [START] */
+.soya {
+  border-left: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+  cursor: pointer;
+}
+.soya > span {
+  font-size: 1.6rem;
+  color: red;
+  margin-right: 15px;
+}
+.soya img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.soya > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-soya [STRAT] */
+.ghimat-soya {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-soya > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 7px;
+}
+.ghimat-soya > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-soya [START] */
+/* css code properties soya [END] */
+
+/* css code properties rogan [START] */
+.rogan {
+  border-bottom: 1px solid rgb(231, 231, 231);
+  cursor: pointer;
+}
+.rogan > span {
+  font-size: 1.6rem;
+  color: red;
+  margin-right: 15px;
+}
+.rogan img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.rogan > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-rogan [STRAT] */
+.ghimat-rogan {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-rogan > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 3px;
+}
+.ghimat-rogan > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-rogan [START] */
+/* css code properties rogan [END] */
+/* css code peroperties section-mhasolat-2 [END] *
+
+
+
+/* css code properties section-mhasolat-2 [START] */
+#section-mhasolat-3 {
+  display: flex;
+}
+
+/* css code properties khamir-dandan [START] */
+.khamir-dandan {
+  border-left: 1px solid rgb(231, 231, 231);
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.khamir-dandan > span {
+  font-size: 1.6rem;
+  color: red;
+  margin-right: 15px;
+}
+.khamir-dandan img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.khamir-dandan > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-khamir-dandan [STRAT] */
+.ghimat-khamir-dandan {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-khamir-dandan > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 7px;
+}
+.ghimat-khamir-dandan > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-khamir-dandan [START] */
+/* css code properties khamir-dandan [END] */
+
+/* css code properties nokia [START] */
+.nokia {
+  border-left: 1px solid rgb(231, 231, 231);
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.nokia > span {
+  font-size: 1.6rem;
+  color: red;
+  margin-right: 15px;
+}
+.nokia img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.nokia > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-nokia [STRAT] */
+.ghimat-nokia {
+  display: flex;
+  margin-left: 10px;
+}
+
+.ghimat-nokia > p{
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 7px;
+}
+.ghimat-nokia > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-nokia [START] */
+/* css code properties nokia [END] */
+
+/* css code properties kodkar [START] */
+.kodkar {
+  border-left: 1px solid rgb(231, 231, 231);
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.kodkar > span {
+  font-size: 1.6rem;
+  color: red;
+  margin-right: 15px;
+}
+.kodkar img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.kodkar > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-kodkar [STRAT] */
+.ghimat-kodkar {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-kodkar > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 7px;
+}
+
+.ghimat-kodkar > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-kodkar [START] */
+/* css code properties kodkar [END] */
+
+/* css code properties sos-khgap [START] */
+.sos-khgap {
+  border-left: 1px solid rgb(231, 231, 231);
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.sos-khgap > span {
+  font-size: 1.6rem;
+  color: red;
+  margin-right: 15px;
+}
+.sos-khgap img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.sos-khgap > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-sos-khgap [STRAT] */
+.ghimat-sos-khgap {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-sos-khgap > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 7px;
+}
+.ghimat-sos-khgap > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-sos-khgap [START] */
+/* css code properties sos-khgap [END] */
+
+/* css code properties selfon [START] */
+.selfon {
+  border-left: 1px solid rgb(231, 231, 231);
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.selfon > span {
+  font-size: 1.6rem;
+  color: red;
+  margin-right: 15px;
+}
+.selfon img {
+  width: var(--width-aks-ha-mhasolast-montakab--);
+  margin-left: 10px;
+}
+.selfon > p {
+  text-decoration: line-through;
+  opacity: 0.5;
+  margin-left: 15px;
+  margin-bottom: 20px;
+  float: left;
+}
+/* css code properties ghimat-selfon [STRAT] */
+.ghimat-selfon {
+  display: flex;
+  margin-left: 10px;
+}
+.ghimat-selfon > p {
+  border: 1px solid red;
+  background-color: red;
+  color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 25px;
+  opacity: 0.8;
+  margin-right: 7px;
+}
+.ghimat-selfon > span {
+  margin-right: 90px;
+}
+/* css code properties ghimat-selfon [START] */
+/* css code properties selfon [END] */
+/* css code properties section-mhasolat-3 [END] */
+/* css code properties section-mhasolat-ha [END] */
+/* css code properties montakab-container [END] */
+/* css code properties montakab-mhasolat [END] */
+
+
+
+/* css code properties khandani-ha [START] */
+#khandani-ha {
+  background-color: var(--background-paszaminha--);
+}
+
+/* css code properties khandani-container [START] */
+#khandani-container {
+  width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top:40px;
+}
+
+/* css code properties header-khandani [START] */
+#header-khandani {
+  display: flex;
+  align-items: center;
+}
+/* css code properties kondan [START] */
+.kondan {
+  cursor: default;
+  padding-left: 1040px;
+  margin-right: var(--margin-right--);
+}
+/* css code propeerties kondan [END] */
+/* css code peroerties mataleb-bisthar [START] */
+.mataleb-bisthar a {
+  color: var(--color-matn-bishtar);
+}
+/* css code peroerties mataleb-bisthar [END] */
+/* css code properties header-khandani [END] */
+/* css code properties images-khandani [START] */
+#images-khandani {
+  display: flex;
+  align-items: center;
+  gap: 5.5px;
+  margin-top: 20px;
+  margin-bottom: 75px;
+}
+/* css code properties mobile-apl [START] */
+.mobile-apl {
+  margin-right: var(--margin-right--);
+  margin-left: 10px;
+  border: 1px solid var(--color-border--);
+  border-radius: 7px;
+  text-align: right;
+  cursor: pointer;
+}
+.mobile-apl img {
+  width: 317.5px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.mobile-apl p {
+  padding: 10px 13px 18px 10px;
+}
+/* css code properties mobile-apl [END] */
+
+/* css code properties hansferi [START] */
+.hansferi {
+  margin-left: 10px;
+  border: 1px solid var(--color-border--);
+  border-radius: 7px;
+  text-align: right;
+  cursor: pointer;
+}
+.hansferi img {
+  width: 317.5px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+.hansferi p {
+  padding: 10px 13px 18px 10px;
+}
+/* css code properties hansferi [END] */
+
+/* css code properties ketab [START] */
+.ketab {
+  margin-left: 10px;
+  border: 1px solid var(--color-border--);
+  border-radius: 7px;
+  text-align: right;
+  cursor: pointer;
+}
+
+.ketab img {
+  width: 317.5px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+.ketab p {
+  padding: 10px 13px 18px 0px;
+}
+/* css code properties ketab [END] */
+
+/* css code properties mobile-poco [START] */
+.mobile-poco {
+  margin-left: 10px;
+  border: 1px solid var(--color-border--);
+  border-radius: 7px;
+  cursor: pointer;
+  text-align: right;
+}
+
+.mobile-poco img {
+  width: 317.5px;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+
+.mobile-poco p {
+  padding: 10px 13px 18px 0px;
+}
+/* css code properties mobile-poco [END] */
+/* css code properties images-khandani [END] */
+/* css code properties khandani-container [END] */
+/* css code properties khandani-ha [END] */
+ /* css code properties digikala [START] */
+#digikala {
+  background-color: var(--background-paszaminha--);
+}
+/* css code properties digikala-container [START] */
+#digikala-container {
+  margin: 0 auto;
+  width: 1400px;
+  border-top: 1px solid rgba(128, 128, 128, 0.164);
+}
+ /* css code properties header-digikala [START] */
+#header-digikala {
+  display: inline-flex;
+  margin-top: 35px;
+}
+
+/* css code properties images [START] */
+.images {
+  margin: 15px;
+}
+
+.images img {
+  margin-bottom: 15px;
+}
+
+.images p {
+  font-family: var(--font-family--);
+}
+/* css code properties images [END] */
+
+/* css code properties bazgasth [START] */
+.bazgasth {
+  margin-top: 10px;
+}
+
+.bazgasth span {
+  margin-top: 15px;
+  font-family: var(--font-family--);
+  border: 1px solid rgba(128, 128, 128, 0.164);
+  border-radius: 7px;
+  padding: 10px 18px 10px 18px;
+  position: relative;
+  right: 750px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+/* css code properties bazgasth [END] */
 /* css code properties header-digikala [end] */
+/* css code properties box-ha [START] */
+#box-ha {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* css code properties express [START] */
+.express {
+  text-align: center;
+  cursor: pointer;
+  font-family: var(--font-family--);
+}
+/* css code properties express [END] */
+
+/* css code properties cash [START] */
+.cash {
+  text-align: center;
+  cursor: pointer;
+  font-family: var(--font-family--);
+}
+/* css code properties cash [END] */
+
+/* css code properties support [START] */
+.support {
+  text-align: center;
+  cursor: pointer;
+  font-family: var(--font-family--);
+}
+/* css code properties support [END] */
+
+/* css code properties days-return [START] */
+.days-return {
+  text-align: center;
+  cursor: pointer;
+  font-family: var(--font-family--);
+}
+/* css code properties days-return [END] */
+
+/* css code properties original-products [START] */
+.original-products {
+  text-align: center;
+  cursor: pointer;
+  font-family: var(--font-family--);
+  padding-left: 100px;
+}
+/* css code properties original-products [END] */
+/* css code properties box-ha [END] */
+
+/* css code properties main [START] */
+#main {
+  margin-top: 40px;
+}
+
+/* css code properties ba-digi [START] */
+.ba-digi {
+  text-align: right;
+  display: inline-flex;
+  flex-direction: column;
+  margin-right: var(--margin-right--);
+  padding-left: 190px;
+}
+
+.ba-digi p {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.ba-digi h2 {
+  margin-bottom: 7px;
+}
+/* css code properties ba-digi [END] */
+
+/* css code properties khadmat-mostariyan [START] */
+.khadmat-mostariyan {
+  text-align: right;
+  display: inline-flex;
+  flex-direction: column;
+  padding-left: 175px;
+}
+
+.khadmat-mostariyan h2 {
+  margin-bottom: 7px;
+}
+
+.khadmat-mostariyan p {
+  opacity: 0.5;
+  cursor: pointer;
+}
+/* css code properties khadmat-mostariyan [END] */
+
+/* css code properties rhanamayi-digi [START]  */
+.rhanamayi-digi {
+  text-align: right;
+  display: inline-flex;
+  flex-direction: column;
+  padding-left: 165px;
+}
+
+.rhanamayi-digi h2 {
+  margin-bottom: 7px;
+}
+
+.rhanamayi-digi p {
+  opacity: 0.5;
+  cursor: pointer;
+}
+/* css code properties rhanamayi-digi [END] */
+
+/* css code properties hamrha-bashid [START]  */
+.hamrha-bashid {
+  text-align: right;
+  display: inline-flex;
+  flex-direction: column;
+}
+.hamrha-bashid h2 {
+  margin-bottom: 7px;
+}
+
+.hamrha-bashid > h1 {
+  font-size: 18.5px;
+  font-weight: 900;
+  margin-top: 25px;
+}
+
+/* css code properties fazai-majazi [start] */
+.fazai-majazi {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+/* css code properties fazai-majazi [END] */
+
+/* css code properties email [START] */
+.email {
+  display: flex;
+  margin-top: 15px;
+  border: 1px solid rgb(233, 233, 233);
+  border-radius: 8px;
+  background-color: rgb(233, 233, 233);
+  width: 210px;
+  text-align: center;
+}
+.email input {
+  background-color: rgb(233, 233, 233);
+  border: none;
+  outline: none;
+  padding: 12px;
+  width: 200px;
+}
+/* css code properties email [END] */
+
+/* css code properties sabt [START] */
+.sabt {
+  position: relative;
+  background-color: #cfcfcf;
+}
+.sabt span {
+  border: 1px solid #cfcfcf;
+  padding: 12px;
+  background-color: #cfcfcf;
+  border-radius: 8px;
+  position: absolute;
+  right: 230px;
+  color: #fff;
+  top: -47px;
+}
+/* css code properties sabt [END] */
+/* css code properties hamrha-bashid [END] */
+/* css code properties main [END] */
+
+/* css code properties box-downloader [START] */
+#box-downloader {
+  border-radius: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 1295px;
+  margin-right: 33px;
+  padding: 13px 15px 13px 0px;
+  margin-top: 38px;
+  margin-bottom: 28px;
+  background-color: #3c4b6d;
+}
+
+/* css code properties application [START] */
+.application {
+  display: flex;
+  align-items: center;
+  padding-left: 290px;
+}
+.application img {
+  height: 44px;
+  padding-left: 7px;
+}
+
+.application span {
+  max-width: max-content;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+/* css code properties application [END] */
+
+/* css code properties google-play [START] */
+.google-play {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  cursor: pointer;
+}
+/* css code properties google-play [END] */
+
+/* css code properties bazar [START] */
+.bazar {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  cursor: pointer;
+}
+/* css code properties bazar [END] */
+
+/* css code properties myket [START] */
+.myket {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  cursor: pointer;
+}
+/* css code properties myket [END] */
+
+/* css code properties sib [START] */
+.sib {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  cursor: pointer;
+}
+/* css code properties sib [END] */
+
+/* css code properties more [START] */
+.more {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  cursor: pointer;
+}
+
+.more img {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+/* css code properties [END] */
+/* css code properties box-downloader [END] */
 /* css code properties digikala-container [END] */
 /* caa code properties digikala [END] */
+ /* css code properties section-atmad [START] */
 
-
-
-/* css code properties section-atmad [START] */
-#section-atmad {
+ #section-atmad {
   background-color: var(--background-paszaminha--);
 }
 
 /* css code properties atmad-container [START] */
 #atmad-container {
-  width: 1350px;
+  width: 1400px;
   margin: 0 auto;
   display: flex;
+ border-bottom: 1px solid rgba(128, 128, 128, 0.164);
   border-top: 1px solid rgba(128, 128, 128, 0.164);
-  border-bottom: 1px solid rgba(128, 128, 128, 0.164);
-
-  
 }
 
 /* css code properties matn-ha [START] */
@@ -823,20 +2000,20 @@ main .special{
   font-weight: 500;
   line-height: 2.1;
 }
-.matn-ha h3:hover{
-  cursor:default;
+.matn-ha h3:hover {
+  cursor: default;
 }
-.matn-ha p{
+.matn-ha p {
   line-height: 2.1;
 }
-.matn-ha p:hover{
-  cursor:default;
+.matn-ha p:hover {
+  cursor: default;
 }
 .matn-ha span {
   color: var(--color-matn-bishtar);
 }
-.matn-ha span:hover{
-  cursor:pointer;
+.matn-ha span:hover {
+  cursor: pointer;
 }
 /* css code properties matn-ha [END] */
 
@@ -846,9 +2023,8 @@ main .special{
   margin-top: 70px;
   width: 17%;
 }
-
-.logoHay-atmad:hover{
-  cursor:pointer;
+.logoHay-atmad:hover {
+  cursor: pointer;
 }
 /* css code properties rezi [START] */
 .rezi img {
@@ -881,10 +2057,7 @@ main .special{
 /* css code properties logoHay-atmad [END] */
 /* css code properties atmad-container [END] */
 /* css code properties section-atmad [END] */
-
-
-
-/* code css properties footer [START] */
+ /* code css properties footer [START] */
 #footer {
   background-color: var(--background-paszaminha);
 }
@@ -893,7 +2066,6 @@ main .special{
 #footer-container {
   width: var(--container-width--);
   margin: 0 auto;
-  width: 1400px;
   text-align: center;
 }
 
@@ -933,6 +2105,9 @@ main .special{
   object-fit: contain;
 }
 
+.clup img {
+  width: 100px;
+}
 /* css code properties logo-up [END] */
 
 /* css code properties logo-down [START] */
