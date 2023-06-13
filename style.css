@@ -9,7 +9,6 @@
 
 body {
   position: relative;
-  max-width: 1350px;
 }
 
 a {
@@ -33,12 +32,13 @@ li {
   --container-width--: 1400px;
   --padding-img-namad-v-kasbokar-darbaksh-atmad: 13px 20px 13px 20px;
   --color-matn-bishtar: #19bfd3;
-  --font-family--:sans-serif;
+  --font-family--: sans-serif;
   --font-family--: sans-serif;
   --margin-right--: 15px;
   --color-border--: rgba(128, 128, 128, 0.164);
   --width-aks-ha-mhasolast-montakab--: 145px;
 }
+
 .banner {
   height: 60px;
   width: 100%;
@@ -51,7 +51,7 @@ li {
   z-index: 999;
 }
 
-header{
+header {
   background-color: #fff;
 }
 
@@ -75,18 +75,17 @@ header .header {
   margin-right: 10px;
 }
 
-header .header .header-right{
+header .header .header-right {
   display: flex;
   align-items: center;
   width: 55%;
   position: relative;
 }
 
-header .header .header-left{
+header .header .header-left {
   display: flex;
   align-items: center;
   width: 55%;
-
 }
 
 header .header-right .searchbox {
@@ -98,32 +97,30 @@ header .header-right .searchbox {
   padding: 15px 40px 10px 10px;
   width: 100%;
   font-size: 15px;
-
 }
 
-.header-right i{
+.header-right i {
   position: absolute;
   right: 150px;
   top: 88px;
   font-size: 15px;
   font-weight: 700;
-  
 }
 
-header .header .header-left{
+header .header .header-left {
   justify-content: flex-end;
   align-items: center;
   margin-top: 60px;
 }
 
-.header-left a:nth-child(1){
+.header-left a:nth-child(1) {
   border: 1px solid #e8e8e2;
   border-radius: 8px;
   padding: 10px 20px;
   margin-left: 20px;
 }
 
-.header-left a:nth-child(2){
+.header-left a:nth-child(2) {
   padding-right: 10px;
   border-right: 1px solid lightgray;
 }
@@ -132,50 +129,49 @@ input::placeholder {
   color: #6e6e6e;
 }
 
-.container{
+.container {
   width: 1350px;
   margin: 0 auto;
 }
 
-.container .location{
+.container .location {
   margin-left: 30px;
 }
 
-.container>ul{
+.container > ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
   line-height: 30px;
 }
 
-.container>ul>li>ul{
+.container > ul > li > ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.container ul li ul li a{
+.container ul li ul li a {
   padding: 12px;
-} 
+}
 
-.container ul li ul li:nth-child(1){
+.container ul li ul li:nth-child(1) {
   font-size: 19px;
   border-left: 1px solid lightgrey;
   padding-left: 10px;
 }
 
-
-.container ul li ul li:nth-child(5){
+.container ul li ul li:nth-child(5) {
   border-left: 1px solid lightgray;
 }
 
-.container ul li ul li:nth-child(2) i{
+.container ul li ul li:nth-child(2) i {
   margin-right: 10px;
 }
 
-.container .menuRight li:hover{
-   border-bottom: 2px solid red;
-   transition: all 0.1s ;
+.container .menuRight li:hover {
+  border-bottom: 2px solid red;
+  transition: all 0.1s;
 }
 swiper-container {
   width: 100%;
@@ -241,8 +237,7 @@ swiper-slide img {
   margin-left: 10px;
 }
 
-
-.more-option{
+.more-option {
   display: flex;
   flex-direction: row;
   padding: 60px 50px 60px 50px;
@@ -250,23 +245,23 @@ swiper-slide img {
   width: 1350px;
 }
 
-.icon .imgicon{
+.icon .imgicon {
   width: 57px;
   height: 57px;
 }
 
-.icon{
+.icon {
   padding-left: 87px;
   padding-right: 87px;
 }
 
-.icontext{
+.icontext {
   font-size: 14px;
   text-align: center;
   margin-right: 76px;
 }
 
-.circle{
+.circle {
   width: 52px;
   height: 52px;
   border-radius: 50%;
@@ -275,7 +270,7 @@ swiper-slide img {
   position: absolute;
 }
 
-main .special{
+main .special {
   width: 1350px;
   margin-right: 50px;
   margin-left: 50px;
@@ -285,20 +280,18 @@ main .special{
   margin: 0 auto;
 }
 
-.right img:nth-child(1){
+.right img:nth-child(1) {
   width: 80px;
   margin-top: 20px;
   margin-right: 20px;
- 
 }
 
-.right img:nth-child(2){
-  width:120px;
+.right img:nth-child(2) {
+  width: 120px;
   margin-right: 14px;
 }
 
-
-.special .slider .baner{
+.special .slider .baner {
   width: 10%;
   height: 218px;
   display: block;
@@ -307,29 +300,28 @@ main .special{
   background-repeat: no-repeat;
 }
 
-.slider{
+.slider {
   margin: 0 auto;
   width: 1350px;
 }
 
-.special .slider{
+.special .slider {
   display: flex;
   width: 100%;
 }
 
-.right .showall{
+.right .showall {
   color: #fff;
   margin-top: 1px;
   margin-right: 30px;
   position: relative;
 }
 
-.showall i{
+.showall i {
   font-size: 10px;
   position: absolute;
   right: 75px;
   bottom: 6px;
-  
 }
 
 @media (max-width: 760px) {
@@ -344,39 +336,36 @@ main .special{
   }
 }
 
-.swiper-slide .img img{
+.swiper-slide .img img {
   width: 150px;
   height: 195px;
-  
+
   object-fit: contain;
-  
 }
 
-.swiper-slide{
+.swiper-slide {
   margin-top: 40px;
   background-color: #fff;
 }
 
-.price{
+.price {
   display: flex;
 }
 
-
-.price .number{
+.price .number {
   margin-right: 9px;
 }
 
-.price .precent{
+.price .precent {
   background-color: #ef394e;
   padding: 1px 1px;
   font-size: 13px;
   margin-right: 5px;
   border-radius: 10px;
   color: #fff;
-  
 }
 
-.super-marketi{
+.super-marketi {
   width: 1350px;
   height: 150px;
   margin-top: 30px;
@@ -385,54 +374,51 @@ main .special{
   position: relative;
 }
 
-.super-right{
+.super-right {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.super-right .sabad{
+.super-right .sabad {
   margin-top: 35px;
   margin-right: 35px;
 }
 
-.super-right .superi{
+.super-right .superi {
   margin-top: 35px;
   margin-right: 15px;
 }
 
-.super-right .takhfif{
+.super-right .takhfif {
   margin-right: 21px;
   margin-top: 25px;
   background-color: rgb(4, 159, 4);
   padding: 3px 13px;
   border-radius: 32px;
-  
 }
 
-.takhfif a h3{
+.takhfif a h3 {
   color: #fff;
 }
 
-.super-left{
+.super-left {
   display: flex;
   flex-direction: row;
   align-items: center;
   position: absolute;
   right: 670px;
   top: 35px;
-  
-  
 }
 
-.super-left img{
+.super-left img {
   width: 80px;
   border-radius: 50%;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-.super-left .darsad-takhfif{
+.super-left .darsad-takhfif {
   position: absolute;
   top: 50px;
   color: #fff;
@@ -441,7 +427,7 @@ main .special{
   border-radius: 20px;
 }
 
-.super-left .kalaha{
+.super-left .kalaha {
   position: absolute;
   background-color: #fff;
   padding: 6px 22px;
@@ -450,12 +436,12 @@ main .special{
   position: relative;
 }
 
-.super-left .kalaha a{
+.super-left .kalaha a {
   color: rgb(4, 159, 4);
   font-size: 12px;
 }
 
-.super-left .kalaha i{
+.super-left .kalaha i {
   color: rgb(4, 159, 4);
   font-size: 15px;
   position: absolute;
@@ -463,17 +449,15 @@ main .special{
   top: 9px;
 }
 
-.banners{
+.banners {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-top: 30px;
   margin-right: 30px;
-  
-  
 }
 
-.banners a img{
+.banners a img {
   width: 320px;
   height: 250px;
   padding-left: 5px;
@@ -481,17 +465,17 @@ main .special{
   border-radius: 20px;
 }
 
-.all-section{
+.all-section {
   margin-top: 40px;
 }
 
-.dastebandi-title h3{
+.dastebandi-title h3 {
   display: flex;
   justify-content: center;
   font-size: 25px;
 }
 
-.dastebandi-photos{
+.dastebandi-photos {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -499,20 +483,20 @@ main .special{
   margin-top: 20px;
 }
 
-.boxes{
+.boxes {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.boxes img{
+.boxes img {
   width: 170px;
   height: 170px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.boxes p{
+.boxes p {
   align-items: center;
   font-weight: 900;
   margin-left: 20px;
@@ -520,85 +504,82 @@ main .special{
   margin-top: 5px;
 }
 
-.boxtwo{
+.boxtwo {
   margin-top: 40px;
 }
 
-.banners-two{
+.banners-two {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-top: 60px;
-  
 }
 
-.banners-two img{
+.banners-two img {
   width: 640px;
   height: 250px;
   margin-right: 20px;
   border-radius: 20px;
 }
 
-.pishnahadat-photos{
+.pishnahadat-photos {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   margin-top: 30px;
-  
 }
 
-.pishnahadat-photos-two{
+.pishnahadat-photos-two {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
 }
 
-.pishnahad-right{
-  border: 1px solid #E0E0E2;
+.pishnahad-right {
+  border: 1px solid #e0e0e2;
   width: 300px;
   height: 150px;
   border-radius: 0px 15px 0px 0px;
 }
-.pishnahad-right-two{
-  border: 1px solid #E0E0E2;
+.pishnahad-right-two {
+  border: 1px solid #e0e0e2;
   width: 300px;
   height: 150px;
   border-radius: 0px 0px 15px 0px;
 }
 
-.pishnahad-center{
-  border: 1px solid #E0E0E2;
+.pishnahad-center {
+  border: 1px solid #e0e0e2;
   width: 300px;
   height: 150px;
 }
 
-.pishnahad-left{
-  border: 1px solid #E0E0E2;
+.pishnahad-left {
+  border: 1px solid #e0e0e2;
   width: 300px;
   height: 150px;
   border-radius: 15px 0px 0px 0px;
 }
 
-.pishnahad-left-two{
-  border: 1px solid #E0E0E2;
+.pishnahad-left-two {
+  border: 1px solid #e0e0e2;
   width: 300px;
   height: 150px;
   border-radius: 0px 0px 0px 15px;
 }
 
-.item{
-  background-color: #F2F2F2;
+.item {
+  background-color: #f2f2f2;
   margin-top: 15px;
   width: 84px;
   height: 84px;
   margin-right: 55px;
   border-radius: 100%;
-
 }
 
-.item-pishnhad{
+.item-pishnhad {
   margin-top: 12px;
   width: 60px;
   height: 60px;
@@ -606,43 +587,45 @@ main .special{
   border-radius: 10%;
 }
 
-.item-text{
+.item-text {
   font-size: 18px;
   margin-top: 12px;
   margin-right: 48px;
   color: #6e6e6e;
 }
 
-#tablet , #panke{
+#tablet,
+#panke {
   margin-right: 80px;
 }
 
-#docharkhe{
+#docharkhe {
   margin-right: 70px;
 }
 
-#short{
+#short {
   margin-right: 60px;
 }
 
-#motor , #jorab{
+#motor,
+#jorab {
   margin-right: 57px;
 }
 
-#ps5{
+#ps5 {
   margin-right: 60px;
 }
 
-.brands{
+.brands {
   display: flex;
   flex-direction: row;
   height: 250px;
-  border: 1px solid #E0E0E2;
+  border: 1px solid #e0e0e2;
   border-radius: 15px;
   position: relative;
 }
 
-.title-brand{
+.title-brand {
   padding-top: 20px;
 }
 
@@ -652,90 +635,92 @@ main .special{
   font-size: 25px;
   position: absolute;
   right: 600px;
-
 }
 
-.title-brand i{
+.title-brand i {
   position: absolute;
   right: 575px;
   top: 31px;
 }
 
-.brand{
+.brand {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
 }
 
-.item-brand{
+.item-brand {
   width: 162px;
   margin-top: 20px;
   border-left: 1px solid #e5e5ed;
 }
 
-.brand-img{
+.brand-img {
   width: 110px;
   width: 110px;
   margin-right: 25px;
   margin-top: 50px;
 }
 
-#samsong{
+#samsong {
   border-left: none;
   width: 150px;
   height: 150px;
   margin-right: 25px;
 }
 
-#power{
+#power {
   margin-top: 90px;
 }
 
-
-.vasayel-hoshmand{
+.vasayel-hoshmand {
   display: flex;
   flex-direction: row;
-  border: 1px solid #E0E0E2;
+  border: 1px solid #e0e0e2;
   border-radius: 15px;
   height: 400px;
 }
 
-.title-hosh h3 , .text-hosh p{
+.title-hosh h3,
+.text-hosh p {
   margin-top: 10px;
   margin-right: 10px;
   font-weight: 900;
 }
 
-.text-hosh p{
+.text-hosh p {
   color: #6e6e6e;
 }
 
-
-.img-hosh{
+.right-hoshmand {
   display: grid;
+  grid-row: auto;
+}
+.img-hosh {
+  display: grid;
+
   align-items: stretch;
   grid-template-columns: 0.1fr 0.1fr;
 }
 
-.img-hosh img{
+.img-hosh img {
   width: 126px;
   height: 126px;
   margin-top: 15px;
-  /* margin-right: 15px; */
-/* } */
 }
 
-.image-hoshmand{
-  display: flex;
+.image-hoshmand {
+  display: grid;
+
   position: relative;
 }
 
-.moshahede h4{
+.moshahede h4 {
   color: #19bfd3;
   margin-right: 110px;
 }
 
-.moshahede i{
+.moshahede i {
   color: #19bfd3;
   font-size: 10px;
   position: absolute;
@@ -743,25 +728,388 @@ main .special{
   bottom: 522px;
 }
 
-.img-hosh-two{
+.img-hosh-two {
   display: grid;
+
   align-items: stretch;
   grid-template-columns: 0.1fr 0.1fr;
 }
 
-.img-hosh-two img{
+.img-hosh-two img {
   width: 130px;
   height: 130px;
   margin-top: 15px;
-
-
-  
 }
 
-.image-hoshmand-two{
+.image-hoshmand-two {
   display: flex;
   position: relative;
 }
+
+/* css code properties porforosh [START] */
+#porforosh {
+  background-color: var(--background-paszaminha--);
+}
+
+/* css code properties porforosh-container [START] */
+#porforosh-container {
+  width: 1339px;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* css code propereties onvan-porforosh" [START] */
+#onvan-porforosh {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+#onvan-porforosh div {
+  display: inline-flex;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+#onvan-porforosh a {
+  color: var(--color-matn-bishtar);
+  position: absolute;
+  left: -500px;
+}
+
+/* css codeproperties onvan-porforosh [END] */
+
+/* css code properties soton-hai-porforosh [START] */
+#soton-hai-porforosh {
+  display: flex;
+  margin-right: var(--margin-right--);
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+/* css code properties soton-1 [START] */
+/* css code properties chin-chin [START]*/
+.chin-chin {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chin-chin img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.chin-chin span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.chin-chin p {
+  line-height: 5.1;
+  margin-left: 15px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* css code properties chin-chin [END*/
+
+/* css code hedfon12 [START] */
+.hedfon12 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hedfon12 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.hedfon12 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.hedfon12 p {
+  line-height: 5.1;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* CSS CODE properties hedfon12 [END] */
+
+/* css code properties galaxy-a14 [START] */
+.galaxy-a14 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.galaxy-a14 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.galaxy-a14 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.galaxy-a14 p {
+  width: 194px;
+}
+/* css code properties galaxy-a14 [END] */
+/* css code  properties soton-1 [END] */
+
+/* css code properties soton-2 [START] */
+/* css code properties galaxy-a15 [START] */
+.galaxy-a15 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.galaxy-a15 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.galaxy-a15 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.galaxy-a15 p {
+  width: 194px;
+  line-height: 2.5;
+  margin-left: 15px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* css code properties galaxy-a15 [END] */
+
+/* css code properties zhfran [START]*/
+.zhfran {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.zhfran img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.zhfran span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.zhfran p {
+  line-height: 5.1;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* css code properties zhfran [EN]*/
+
+/* css code properties galaxy-a14 [START] */
+.hedfon-t13 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.hedfon-t13 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.hedfon-t13 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.hedfon-t13 p {
+  width: 194px;
+}
+/* css code properties hedfon-t13 [END] */
+/* css code properties soton-2 [END] */
+
+/* css code properties soton-3 [START] */
+/* css code properties hedfon-f9-5 [START]*/
+.hedfon-f9-5 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hedfon-f9-5 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.hedfon-f9-5 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.hedfon-f9-5 p {
+  line-height: 5.1;
+  margin-left: 15px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* css code properties hedfon-f9-5 [EN]*/
+
+/* css code properties zedaftab300 [START]*/
+.zedaftab300 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.zedaftab300 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.zedaftab300 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.zedaftab300 p {
+  line-height: 5.1;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* css code properties zedaftab300 [EN]*/
+
+/* css code properties khameh200 [START]*/
+.khameh200 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.khameh200 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.khameh200 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.khameh200 p {
+  line-height: 5.1;
+}
+/* css code properties khameh200 [EN]*/
+/* css code properties soton-3 [END] */
+
+/* css code properties soton-4 [START] */
+/* css code properties ton-mahi [START]*/
+.ton-mahi {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ton-mahi img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.ton-mahi span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.ton-mahi p {
+  line-height: 5.1;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* css code properties ton-mahi [EN]*/
+
+/* css code properties dastmal-papia [START]*/
+.dastmal-papia {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dastmal-papia img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.dastmal-papia span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.dastmal-papia p {
+  line-height: 5.1;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* css code properties dastmal-papia [EN]*/
+
+/* css code properties panir-400 [START]*/
+.panir-400 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.panir-400 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.panir-400 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.panir-400 p {
+  line-height: 5.1;
+}
+/* css code properties panir-400 [EN]*/
+/* css code properties soton-4 [END] */
+/* css code properties soton-hai-porforosh [END] */
+/* css code properties porforosh-container [END] */
+/* css code properties porforosh [END] */
 
 /* css code properties montakab-mhasolat [START] */
 #montakab-mhasolat {
@@ -770,16 +1118,17 @@ main .special{
 
 /* css code properties montakab-container [START] */
 #montakab-container {
-  width: 1336.5px;
+  width: 1329.5px;
   text-align: center;
-  margin: 0 auto; 
+  margin: 0 auto;
   border: 1px solid gray;
   border-radius: 10px;
 }
 
 /* CSS CODE PROPERTIES onvan-montakab [START] */
-#onvan-montakab{
+#onvan-montakab {
   margin-top: 20px;
+  margin-bottom: 55px;
 }
 
 #onvan-montakab span {
@@ -1394,7 +1743,7 @@ main .special{
   margin-left: 10px;
 }
 
-.ghimat-nokia > p{
+.ghimat-nokia > p {
   border: 1px solid red;
   background-color: red;
   color: white;
@@ -1543,9 +1892,6 @@ main .special{
 /* css code properties section-mhasolat-ha [END] */
 /* css code properties montakab-container [END] */
 /* css code properties montakab-mhasolat [END] */
-
-
-
 
 /* css code properties montakab-mhasolat [START] */
 #montakab-mhasolat {
@@ -1556,13 +1902,13 @@ main .special{
 #montakab-container {
   width: 1355.6px;
   text-align: center;
-  margin: 0 auto; 
+  margin: 0 auto;
   border: 1px solid gray;
   border-radius: 10px;
 }
 
 /* CSS CODE PROPERTIES onvan-montakab [START] */
-#onvan-montakab{
+#onvan-montakab {
   margin-top: 20px;
 }
 
@@ -2178,7 +2524,7 @@ main .special{
   margin-left: 10px;
 }
 
-.ghimat-nokia > p{
+.ghimat-nokia > p {
   border: 1px solid red;
   background-color: red;
   color: white;
@@ -2327,8 +2673,6 @@ main .special{
 /* css code properties section-mhasolat-ha [END] */
 /* css code properties montakab-container [END] */
 /* css code properties montakab-mhasolat [END] */
-
-
 
 /* css code properties khandani-ha [START] */
 #khandani-ha {
@@ -2340,7 +2684,7 @@ main .special{
   width: 1400px;
   margin: 0 auto;
   text-align: center;
-  margin-top:40px;
+  margin-top: 40px;
 }
 
 /* css code properties header-khandani [START] */
@@ -2449,7 +2793,7 @@ main .special{
 /* css code properties images-khandani [END] */
 /* css code properties khandani-container [END] */
 /* css code properties khandani-ha [END] */
- /* css code properties digikala [START] */
+/* css code properties digikala [START] */
 #digikala {
   background-color: var(--background-paszaminha--);
 }
@@ -2459,12 +2803,11 @@ main .special{
   width: 1400px;
   border-top: 1px solid rgba(128, 128, 128, 0.164);
 }
- /* css code properties header-digikala [START] */
+/* css code properties header-digikala [START] */
 #header-digikala {
   display: inline-flex;
   margin-top: 35px;
 }
-
 
 /* css code properties khandani-ha [START] */
 #khandani-ha {
@@ -2476,7 +2819,7 @@ main .special{
   width: 1400px;
   margin: 0 auto;
   text-align: center;
-  margin-top:40px;
+  margin-top: 40px;
 }
 
 /* css code properties header-khandani [START] */
@@ -2641,7 +2984,6 @@ main .special{
 }
 /* css code properties bazgasth [END] */
 /* css code properties header-digikala [end] */
-
 
 /* css code properties box-ha [START] */
 #box-ha {
@@ -2901,10 +3243,7 @@ main .special{
 /* css code properties box-downloader [END] */
 /* css code properties digikala-container [END] */
 /* caa code properties digikala [END] */
- /* css code properties section-atmad [START] */
-
-
- 
+/* css code properties section-atmad [START] */
 
 /* css code properties section-atmad [START] */
 #section-atmad {
@@ -2994,8 +3333,7 @@ main .special{
 /* css code properties logoHay-atmad [END] */
 /* css code properties atmad-container [END] */
 /* css code properties section-atmad [END] */
- /* code css properties footer [START] */
-
+/* code css properties footer [START] */
 
 /* code css properties footer [START] */
 
@@ -3076,3 +3414,18 @@ main .special{
 /* css code properties logos [END] */
 /* code css properties footer-container [END] */
 /* code css properties footer [END] */
+
+
+/* css codeproperties hedfon-suuport [START] */
+#hedfon-suuport img {
+  position: fixed;
+  right: 1270px;
+  top: 553px;
+  left: 0;
+  bottom: 0;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 25px;
+  padding: 7px;
+}
+/* css code properties hedfon-suuport [END] */
