@@ -1,3 +1,4 @@
+
 * {
   padding: 0;
   margin: 0;
@@ -9,7 +10,6 @@
 
 body {
   position: relative;
-  max-width: 1350px;
 }
 
 a {
@@ -51,11 +51,12 @@ li {
   z-index: 999;
 }
 
-#header {
+header{
   background-color: #fff;
+  border-bottom: 1px solid #E0E0E2;
 }
 
-#header .header {
+header .header {
   min-width: 1009px;
   max-width: 1676px;
   margin: 0 auto;
@@ -75,20 +76,21 @@ li {
   margin-right: 10px;
 }
 
-#header .header .header-right {
+header .header .header-right{
   display: flex;
   align-items: center;
   width: 55%;
   position: relative;
 }
 
-#header .header .header-left {
+header .header .header-left{
   display: flex;
   align-items: center;
   width: 55%;
+
 }
 
-#header .header-right .searchbox {
+header .header-right .searchbox {
   background: #f0f0f1;
   border: none;
   margin-top: 60px;
@@ -97,30 +99,48 @@ li {
   padding: 15px 40px 10px 10px;
   width: 100%;
   font-size: 15px;
+
 }
 
-.header-right i {
+.header-right i{
   position: absolute;
   right: 150px;
   top: 88px;
   font-size: 15px;
   font-weight: 700;
+  
 }
 
-header .header .header-left {
+.menuRight>ul>li>a>ul>li{
+  padding: 7px 7px 7px 7px;
+}
+
+.menuRight>ul>li>a>ul{
+  display: none;
+  visibility: hidden;
+}
+
+.menuRight>ul>li>a:hover>ul{
+  display: block;
+  overflow-y: auto;
+  visibility: visible;
+  opacity: 1;
+}
+
+header .header .header-left{
   justify-content: flex-end;
   align-items: center;
   margin-top: 60px;
 }
 
-.header-left a:nth-child(1) {
+.header-left a:nth-child(1){
   border: 1px solid #e8e8e2;
   border-radius: 8px;
   padding: 10px 20px;
   margin-left: 20px;
 }
 
-.header-left a:nth-child(2) {
+.header-left a:nth-child(2){
   padding-right: 10px;
   border-right: 1px solid lightgray;
 }
@@ -145,38 +165,41 @@ input::placeholder {
   line-height: 30px;
 }
 
-.container > ul > li > ul {
+.container>ul>li>ul{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.container ul li ul li a {
-  padding: 12px;
-}
 
-.container ul li ul li:nth-child(1) {
+
+.container ul li ul li a{
+  padding: 12px;
+} 
+
+.container ul li ul li:nth-child(1){
   font-size: 19px;
   border-left: 1px solid lightgrey;
   padding-left: 10px;
 }
 
-.container ul li ul li:nth-child(5) {
+
+.container ul li ul li:nth-child(5){
   border-left: 1px solid lightgray;
 }
 
-.container ul li ul li:nth-child(2) i {
+.container ul li ul li:nth-child(2) i{
   margin-right: 10px;
 }
 
-.container .menuRight li:hover {
-  border-bottom: 3px solid red;
-  transition: all 0.1s;
+.container .menuRight li:hover{
+   border-bottom: 2px solid red;
+   transition: all 0.1s ;
 }
 swiper-container {
   width: 100%;
   height: 100%;
-  margin-top: 20px;
+;
 }
 
 swiper-slide {
@@ -238,7 +261,7 @@ swiper-slide img {
 }
 
 
-.container-three {
+.more-option{
   display: flex;
   flex-direction: row;
   padding: 60px 50px 60px 50px;
@@ -246,29 +269,51 @@ swiper-slide img {
   width: 1350px;
 }
 
-.icon .imgicon {
-  width: 60px;
-  height: 60px;
+.icon .imgicon{
+  width: 57px;
+  height: 57px;
 }
 
-.icon {
+.icon{
   padding-left: 87px;
   padding-right: 87px;
 }
 
-.icontext {
+.icontext{
   font-size: 14px;
   text-align: center;
   margin-right: 76px;
 }
 
-.circle {
+.circle{
   width: 52px;
   height: 52px;
   border-radius: 50%;
   background-color: #aeaeae;
   margin-right: 80px;
   position: absolute;
+}
+
+.special{
+  width: 1350px;
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 320px;
+  background-color: #ef394e;
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.right img:nth-child(1){
+  width: 80px;
+  margin-top: 20px;
+  margin-right: 20px;
+ 
+}
+
+.right img:nth-child(2){
+  width:120px;
+  margin-right: 14px;
 }
 
 
@@ -303,9 +348,9 @@ swiper-slide img {
   position: absolute;
   right: 75px;
   bottom: 6px;
+  
 }
-
-
+ 
 @media (max-width: 760px) {
   .swiper-button-next {
     right: 20px;
@@ -316,28 +361,24 @@ swiper-slide img {
     left: 20px;
     transform: rotate(90deg);
   }
-}
-  
+} 
+
 .swiper-slide .img img{
   width: 150px;
   height: 195px;
-
+  
   object-fit: contain;
   
-} 
- 
-.swiper-slide .img{
-  width: 50px;
-} 
+}
 
 .swiper-slide{
   margin-top: 40px;
   background-color: #fff;
-} 
+}
 
 .price{
   display: flex;
-}  
+}
 
 
 .price .number{
@@ -670,76 +711,592 @@ swiper-slide img {
 }
 
 
-.vasayel-hoshmand{
-  display: flex;
-  flex-direction: row;
+.phones{
+  display: grid;
+  grid-template-columns: 340px 340px 340px 340px;
+  height: 400px;
   border: 1px solid #E0E0E2;
   border-radius: 15px;
-  height: 400px;
+  margin-top: 30px;
 }
 
-.title-hosh h3 , .text-hosh p{
-  margin-top: 10px;
-  margin-right: 10px;
-  font-weight: 900;
+.title-phone h2{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
 
-.text-hosh p{
+.title-phone-two{
+  margin-right: 3px;
   color: #6e6e6e;
 }
 
 
-.img-hosh{
+.images-phone{
   display: grid;
-  align-items: stretch;
   grid-template-columns: 0.1fr 0.1fr;
+  margin-top: 15px;
 }
 
-.img-hosh img{
+.phone-cover{
+  border-left: 1px solid #E0E0E2;
+}
+
+.images-phone img{
+  margin-right: 15px;
+  padding-bottom: 10px;
   width: 126px;
   height: 126px;
-  margin-top: 15px;
-  /* margin-right: 15px; */
-/* } */
 }
 
-.image-hoshmand{
-  display: flex;
+.moshahede-phone a p{
+  color: #16acbc;
+  margin-right: 120px;
+  margin-top: 10px;
   position: relative;
 }
 
-.moshahede h4{
-  color: #19bfd3;
-  margin-right: 110px;
-}
-
-.moshahede i{
-  color: #19bfd3;
+.moshahede-phone i{
   font-size: 10px;
   position: absolute;
-  right: 160px;
-  bottom: 522px;
+  right: 50px;
+  top: 7px;
 }
 
-.img-hosh-two{
+.digi-plus{
+  display: flex;
+  height: 400px;
+  background-color: #941b80;
+  border-radius: 15px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.right-plus{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.right-plus img{
+  margin-top: 40px;
+  margin-right: 30px;
+}
+
+.right-plus h3{
+  color: #ffff;
+  margin-right: 30px;
+  font-weight: 900;
+}
+
+.right-plus .ozviat{
+  padding: 7px 10px;
+  width: 100px;
+  height: 40px;
+  border: 1px solid white;
+  margin-top: 20px;
+  margin-right: 30px;
+  border-radius: 10px;
+
+}
+
+.ozviat a{
+  color: #ffff;
+}
+
+.ozviat i{
+  color: #ffff;
+  position: absolute;
+  right: 95px;
+  top: 142px;
+}
+
+.plus-right img{
+  width: 372px;
+  height: 279px;
+  position: absolute;
+  top: 70px;
+}
+
+.left-plus{
+  display: flex;
+  flex-direction: column;
   display: grid;
-  align-items: stretch;
-  grid-template-columns: 0.1fr 0.1fr;
+  overflow: hidden;
+  width: 910px;
+  height: 360px;
+  background-color: #ffff;
+  margin-top: 20px;
+  margin-right: 170px;
+  border-radius: 15px;
+  position: relative;
 }
 
-.img-hosh-two img{
-  width: 130px;
-  height: 130px;
-  margin-top: 15px;
+.all-left{
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
 
+.top-plus{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.matn-rast i{
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  color: #941b80;
+}
+
+.matn-rast h4{
+  margin-top: 19px;
+  margin-right: 30px;
+  font-weight: 900;
+}
+
+.top-plus a{
+  margin-top: 10px;
+  margin-right: 700px;
+  color: #941b80;
+}
+
+.chevron{
+  margin-top: 10px;
+  font-size: 12px;
+  color: #941b80;
+
+}
+
+.img-plus{
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px 150px 150px;
+  margin-top: 20px;
+}
+
+.img-plus img{
+  width: 116px;
+  height: 116px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+}
+
+.digi-club{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  height: 150px;
+  border-radius: 15px;
+  background: linear-gradient(76.02deg,#35a6c8 33.32%,#007295 71.55%),radial-gradient(21.29% 87.33% at 50% 50.67%,#7cf2f6 0,#35a6c8 100%);
   
 }
 
-.image-hoshmand-two{
+
+.right-club img{
+  margin-right: 50px;
+  width: 119px;
+  height: 33px;
+}
+
+.left-club{
   display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.left-club img{
+  border-radius: 10px;
+  width: 180px;
+  height: 70px;
+  padding-right: 1px;
+  margin-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+/* css code properties porforosh [START] */
+#porforosh {
+  background-color: var(--background-paszaminha--);
+}
+
+/* css code properties porforosh-container [START] */
+#porforosh-container {
+  width: 1339px;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid rgb(223, 223, 223);
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* css code propereties onvan-porforosh" [START] */
+#onvan-porforosh {
+  display: inline-flex;
+  align-items: center;
   position: relative;
 }
+
+#onvan-porforosh div {
+  display: inline-flex;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+#onvan-porforosh a {
+  color: var(--color-matn-bishtar);
+  position: absolute;
+  left: -500px;
+}
+
+/* css codeproperties onvan-porforosh [END] */
+
+/* css code properties soton-hai-porforosh [START] */
+#soton-hai-porforosh {
+  display: flex;
+  margin-right: var(--margin-right--);
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+/* css code properties soton-1 [START] */
+/* css code properties chin-chin [START]*/
+.chin-chin {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.chin-chin img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.chin-chin span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.chin-chin p {
+  line-height: 5.1;
+  margin-left: 15px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* css code properties chin-chin [END*/
+
+/* css code hedfon12 [START] */
+.hedfon12 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hedfon12 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.hedfon12 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.hedfon12 p {
+  line-height: 5.1;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* CSS CODE properties hedfon12 [END] */
+
+/* css code properties galaxy-a14 [START] */
+.galaxy-a14 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.galaxy-a14 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.galaxy-a14 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.galaxy-a14 p {
+  width: 194px;
+}
+/* css code properties galaxy-a14 [END] */
+/* css code  properties soton-1 [END] */
+
+/* css code properties soton-2 [START] */
+/* css code properties galaxy-a15 [START] */
+.galaxy-a15 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.galaxy-a15 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.galaxy-a15 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.galaxy-a15 p {
+  width: 194px;
+  line-height: 2.5;
+  margin-left: 15px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* css code properties galaxy-a15 [END] */
+
+/* css code properties zhfran [START]*/
+.zhfran {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.zhfran img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.zhfran span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.zhfran p {
+  line-height: 5.1;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* css code properties zhfran [EN]*/
+
+/* css code properties galaxy-a14 [START] */
+.hedfon-t13 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.hedfon-t13 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.hedfon-t13 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.hedfon-t13 p {
+  width: 194px;
+}
+/* css code properties hedfon-t13 [END] */
+/* css code properties soton-2 [END] */
+
+/* css code properties soton-3 [START] */
+/* css code properties hedfon-f9-5 [START]*/
+.hedfon-f9-5 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.hedfon-f9-5 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.hedfon-f9-5 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.hedfon-f9-5 p {
+  line-height: 5.1;
+  margin-left: 15px;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* css code properties hedfon-f9-5 [EN]*/
+
+/* css code properties zedaftab300 [START]*/
+.zedaftab300 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.zedaftab300 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.zedaftab300 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.zedaftab300 p {
+  line-height: 5.1;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* css code properties zedaftab300 [EN]*/
+
+/* css code properties khameh200 [START]*/
+.khameh200 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.khameh200 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.khameh200 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.khameh200 p {
+  line-height: 5.1;
+}
+/* css code properties khameh200 [EN]*/
+/* css code properties soton-3 [END] */
+
+/* css code properties soton-4 [START] */
+/* css code properties ton-mahi [START]*/
+.ton-mahi {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.ton-mahi img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.ton-mahi span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.ton-mahi p {
+  line-height: 5.1;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* css code properties ton-mahi [EN]*/
+
+/* css code properties dastmal-papia [START]*/
+.dastmal-papia {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dastmal-papia img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.dastmal-papia span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.dastmal-papia p {
+  line-height: 5.1;
+  border-bottom: 1px solid rgb(238, 238, 238);
+}
+/* css code properties dastmal-papia [EN]*/
+
+/* css code properties panir-400 [START]*/
+.panir-400 {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.panir-400 img {
+  width: 85px;
+  margin-left: 5px;
+}
+
+.panir-400 span {
+  font-size: 2.6rem;
+  font-weight: 800;
+  line-height: 2.1;
+  color: #19bfd3;
+  margin-left: 4px;
+}
+
+.panir-400 p {
+  line-height: 5.1;
+}
+/* css code properties panir-400 [EN]*/
+/* css code properties soton-4 [END] */
+/* css code properties soton-hai-porforosh [END] */
+/* css code properties porforosh-container [END] */
+/* css code properties porforosh [END] */
 
 /* css code properties montakab-mhasolat [START] */
 #montakab-mhasolat {
@@ -748,16 +1305,17 @@ swiper-slide img {
 
 /* css code properties montakab-container [START] */
 #montakab-container {
-  width: 1336.5px;
+  width: 1329.5px;
   text-align: center;
-  margin: 0 auto; 
+  margin: 0 auto;
   border: 1px solid gray;
   border-radius: 10px;
 }
 
 /* CSS CODE PROPERTIES onvan-montakab [START] */
-#onvan-montakab{
+#onvan-montakab {
   margin-top: 20px;
+  margin-bottom: 55px;
 }
 
 #onvan-montakab span {
@@ -1372,7 +1930,7 @@ swiper-slide img {
   margin-left: 10px;
 }
 
-.ghimat-nokia > p{
+.ghimat-nokia > p {
   border: 1px solid red;
   background-color: red;
   color: white;
@@ -1521,9 +2079,6 @@ swiper-slide img {
 /* css code properties section-mhasolat-ha [END] */
 /* css code properties montakab-container [END] */
 /* css code properties montakab-mhasolat [END] */
-
-
-
 
 /* css code properties montakab-mhasolat [START] */
 #montakab-mhasolat {
@@ -1534,13 +2089,13 @@ swiper-slide img {
 #montakab-container {
   width: 1355.6px;
   text-align: center;
-  margin: 0 auto; 
+  margin: 0 auto;
   border: 1px solid gray;
   border-radius: 10px;
 }
 
 /* CSS CODE PROPERTIES onvan-montakab [START] */
-#onvan-montakab{
+#onvan-montakab {
   margin-top: 20px;
 }
 
@@ -2156,7 +2711,7 @@ swiper-slide img {
   margin-left: 10px;
 }
 
-.ghimat-nokia > p{
+.ghimat-nokia > p {
   border: 1px solid red;
   background-color: red;
   color: white;
@@ -2305,8 +2860,6 @@ swiper-slide img {
 /* css code properties section-mhasolat-ha [END] */
 /* css code properties montakab-container [END] */
 /* css code properties montakab-mhasolat [END] */
-
-
 
 /* css code properties khandani-ha [START] */
 #khandani-ha {
@@ -2318,7 +2871,7 @@ swiper-slide img {
   width: 1400px;
   margin: 0 auto;
   text-align: center;
-  margin-top:40px;
+  margin-top: 40px;
 }
 
 /* css code properties header-khandani [START] */
@@ -2427,7 +2980,7 @@ swiper-slide img {
 /* css code properties images-khandani [END] */
 /* css code properties khandani-container [END] */
 /* css code properties khandani-ha [END] */
- /* css code properties digikala [START] */
+/* css code properties digikala [START] */
 #digikala {
   background-color: var(--background-paszaminha--);
 }
@@ -2437,12 +2990,11 @@ swiper-slide img {
   width: 1400px;
   border-top: 1px solid rgba(128, 128, 128, 0.164);
 }
- /* css code properties header-digikala [START] */
+/* css code properties header-digikala [START] */
 #header-digikala {
   display: inline-flex;
   margin-top: 35px;
 }
-
 
 /* css code properties khandani-ha [START] */
 #khandani-ha {
@@ -2454,7 +3006,7 @@ swiper-slide img {
   width: 1400px;
   margin: 0 auto;
   text-align: center;
-  margin-top:40px;
+  margin-top: 40px;
 }
 
 /* css code properties header-khandani [START] */
@@ -2619,7 +3171,6 @@ swiper-slide img {
 }
 /* css code properties bazgasth [END] */
 /* css code properties header-digikala [end] */
-
 
 /* css code properties box-ha [START] */
 #box-ha {
@@ -2879,10 +3430,7 @@ swiper-slide img {
 /* css code properties box-downloader [END] */
 /* css code properties digikala-container [END] */
 /* caa code properties digikala [END] */
- /* css code properties section-atmad [START] */
-
-
- 
+/* css code properties section-atmad [START] */
 
 /* css code properties section-atmad [START] */
 #section-atmad {
@@ -2972,8 +3520,7 @@ swiper-slide img {
 /* css code properties logoHay-atmad [END] */
 /* css code properties atmad-container [END] */
 /* css code properties section-atmad [END] */
- /* code css properties footer [START] */
-
+/* code css properties footer [START] */
 
 /* code css properties footer [START] */
 
@@ -3054,3 +3601,18 @@ swiper-slide img {
 /* css code properties logos [END] */
 /* code css properties footer-container [END] */
 /* code css properties footer [END] */
+
+
+/* css codeproperties hedfon-suuport [START] */
+#hedfon-suuport img {
+  position: fixed;
+  right: 1270px;
+  top: 553px;
+  left: 0;
+  bottom: 0;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 25px;
+  padding: 7px;
+}
+/* css code properties hedfon-suuport [END] */
