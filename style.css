@@ -57,6 +57,7 @@ li {
   z-index: 2;
   margin-bottom: 200px;
   width: 100%;
+  box-shadow: 1px -1px 1px 1px;
 }
 /* css code properties container [START] */
 #container {
@@ -4305,16 +4306,33 @@ swiper-slide img {
 
 
 /* css codeproperties hedfon-suuport [START] */
-
+#mkl{
+  position: relative;
+}
+#hedfon-suuport{
+  position: relative;
+  width: 10px;
+  /* position: fixed; */
+  /* z-index: 2; */
+  /* top: 100px; */
+  /* right: 100px; */
+}
 #hedfon-suuport img {
-  position: fixed;
+  /* position: absolute; */
+  position:fixed;
+  /* width: 10px; */
   z-index: 2;
+  /* top: -60px;
+  right: 1260px;
+  bottom: 0px;
+  left: 0px; */
   right: 1270px;
   top: 553px;
   background-color: red;
   border: 1px solid red;
   border-radius: 25px;
   padding: 7px;
+  cursor: pointer;
 }
 /* css code properties hedfon-suuport [END] */
 /* CSS STYLE END */
