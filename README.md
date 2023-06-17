@@ -3,5 +3,5 @@
  
  Leader : marjan
  
- gp: marjan , amin , donya , erfan
+ gp: marjan , amin
  
