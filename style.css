@@ -7,14 +7,13 @@
   direction: rtl;
   font-family: yekan, sans-serif;
 }
-
-/* body START */
+/* body start */
 body {
   position: relative;
 }
-/* body END */
+/* body end */
 
-/* css code properties tamam a ha v li ha [START] */
+/* css coed properties tamam a ha v li ha [START] */
 a {
   text-decoration: none;
   color: black;
@@ -23,7 +22,7 @@ a {
 li {
   list-style: none;
 }
-/* css code properties tamam a ha v li ha [END] */
+/* css coed properties tamam a ha v li ha [END] */
 
 .container{
   width: 1350px;
@@ -36,20 +35,20 @@ li {
   font-weight: 700;
 }
 
-/* css code root project [START] */
+/* css code properties root [START] */
 :root {
   --background-footer--: #f1f2f4;
   --background-paszaminha--: #fff;
   --container-width--: 1350px;
   --padding-img-namad-v-kasbokar-darbaksh-atmad: 13px 20px 13px 20px;
   --color-matn-bishtar: #19bfd3;
-  --font-family--: sans-serif;
+  --font-family--:sans-serif;
   --font-family--: sans-serif;
   --margin-right--: 15px;
   --color-border--: #E0E0E2;
   --width-aks-ha-mhasolast-montakab--: 145px;
 }
-/* css code root project [END] */
+/* css code properties root [END] */
 
 /* css code properties header [START] */
 #header {
@@ -483,7 +482,6 @@ li {
 /* /css code properties ghsmat-down [END] */
 /* css code properties container [END] */
 /* css code properies header [END] */
-
 /* SECTION STORYS START */
 .more-option-two{
   display: flex;
@@ -555,7 +553,7 @@ swiper-slide img {
   width: 1350px;
 }
 
-.icon .imgicon {
+.icon .imgicon{
   width: 57px;
   height: 57px;
 }
@@ -565,13 +563,13 @@ swiper-slide img {
   padding-right: 80px;
 }
 
-.icontext {
+.icontext{
   font-size: 14px;
   text-align: center;
   margin-right: 65px;
 }
 
-.circle {
+.circle{
   width: 52px;
   height: 52px;
   border-radius: 50%;
@@ -592,14 +590,15 @@ swiper-slide img {
   margin: 0 auto;
 }
 
-.right img:nth-child(1) {
+.right img:nth-child(1){
   width: 80px;
   margin-top: 20px;
   margin-right: 20px;
+ 
 }
 
-.right img:nth-child(2) {
-  width: 120px;
+.right img:nth-child(2){
+  width:120px;
   margin-right: 14px;
 }
 
@@ -630,25 +629,26 @@ swiper-slide img {
  width: 80px;
 }
 
-.special .slider {
+.special .slider{
   display: flex;
   width: 100%;
 }
 
-.right .showall {
+.right .showall{
   color: #fff;
   margin-top: 1px;
   margin-right: 30px;
   position: relative;
 }
 
-.showall i {
+.showall i{
   font-size: 10px;
   position: absolute;
   right: 75px;
   bottom: 6px;
+  
 }
-
+ 
 @media (max-width: 760px) {
   .swiper-button-next {
     right: 20px;
@@ -669,21 +669,14 @@ swiper-slide img {
   
 }
 
-.swiper-slide .img img {
-  width: 150px;
-  height: 195px;
-
-  object-fit: contain;
-}
-
-.swiper-slide {
+.swiper-slide{
   margin-top: 40px;
   background-color: #fff;
   
  
 }
 
-.price {
+.price{
   display: flex;
 }
 
@@ -692,13 +685,14 @@ swiper-slide img {
   margin-right: 130px;
 }
 
-.price .precent {
+.price .precent{
   background-color: #ef394e;
   padding: 1px 1px;
   font-size: 13px;
   margin-right: 5px;
   border-radius: 10px;
   color: #fff;
+  
 }
 /* SECTION SWIPER SLIDE 2 END */
 
@@ -712,35 +706,36 @@ swiper-slide img {
   position: relative;
 }
 
-.super-right {
+.super-right{
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.super-right .sabad {
+.super-right .sabad{
   margin-top: 35px;
   margin-right: 35px;
 }
 
-.super-right .superi {
+.super-right .superi{
   margin-top: 35px;
   margin-right: 15px;
 }
 
-.super-right .takhfif {
+.super-right .takhfif{
   margin-right: 21px;
   margin-top: 25px;
   background-color: rgb(4, 159, 4);
   padding: 3px 13px;
   border-radius: 32px;
+  
 }
 
-.takhfif a h3 {
+.takhfif a h3{
   color: #fff;
 }
 
-.super-left {
+.super-left{
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -749,14 +744,14 @@ swiper-slide img {
   top: 35px;
 }
 
-.super-left img {
+.super-left img{
   width: 80px;
   border-radius: 50%;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-.super-left .darsad-takhfif {
+.super-left .darsad-takhfif{
   position: absolute;
   top: 50px;
   color: #fff;
@@ -765,7 +760,7 @@ swiper-slide img {
   border-radius: 20px;
 }
 
-.super-left .kalaha {
+.super-left .kalaha{
   position: absolute;
   background-color: #fff;
   padding: 6px 22px;
@@ -774,12 +769,12 @@ swiper-slide img {
   position: relative;
 }
 
-.super-left .kalaha a {
+.super-left .kalaha a{
   color: rgb(4, 159, 4);
   font-size: 12px;
 }
 
-.super-left .kalaha i {
+.super-left .kalaha i{
   color: rgb(4, 159, 4);
   font-size: 15px;
   position: absolute;
@@ -797,7 +792,7 @@ swiper-slide img {
   margin-right: 30px;
 }
 
-.banners a img {
+.banners a img{
   width: 320px;
   height: 250px;
   padding-left: 5px;
@@ -811,13 +806,13 @@ swiper-slide img {
   margin-top: 40px;
 }
 
-.dastebandi-title h3 {
+.dastebandi-title h3{
   display: flex;
   justify-content: center;
   font-size: 25px;
 }
 
-.dastebandi-photos {
+.dastebandi-photos{
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -825,20 +820,20 @@ swiper-slide img {
   margin-top: 20px;
 }
 
-.boxes {
+.boxes{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.boxes img {
+.boxes img{
   width: 170px;
   height: 170px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.boxes p {
+.boxes p{
   align-items: center;
   font-weight: 900;
   margin-left: 20px;
@@ -846,7 +841,7 @@ swiper-slide img {
   margin-top: 5px;
 }
 
-.boxtwo {
+.boxtwo{
   margin-top: 40px;
 }
 /* SECTION (dastebandi kalaha) END */
@@ -857,9 +852,10 @@ swiper-slide img {
   flex-direction: row;
   align-items: center;
   margin-top: 60px;
+  
 }
 
-.banners-two img {
+.banners-two img{
   width: 640px;
   height: 250px;
   margin-right: 20px;
@@ -874,58 +870,60 @@ swiper-slide img {
   justify-content: center;
   flex-direction: row;
   margin-top: 30px;
+  
 }
 
-.pishnahadat-photos-two {
+.pishnahadat-photos-two{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
 }
 
-.pishnahad-right {
-  border: 1px solid #e0e0e2;
+.pishnahad-right{
+  border: 1px solid #E0E0E2;
   width: 300px;
   height: 150px;
   border-radius: 0px 15px 0px 0px;
 }
-.pishnahad-right-two {
-  border: 1px solid #e0e0e2;
+.pishnahad-right-two{
+  border: 1px solid #E0E0E2;
   width: 300px;
   height: 150px;
   border-radius: 0px 0px 15px 0px;
 }
 
-.pishnahad-center {
-  border: 1px solid #e0e0e2;
+.pishnahad-center{
+  border: 1px solid #E0E0E2;
   width: 300px;
   height: 150px;
 }
 
-.pishnahad-left {
-  border: 1px solid #e0e0e2;
+.pishnahad-left{
+  border: 1px solid #E0E0E2;
   width: 300px;
   height: 150px;
   border-radius: 15px 0px 0px 0px;
 }
 
-.pishnahad-left-two {
-  border: 1px solid #e0e0e2;
+.pishnahad-left-two{
+  border: 1px solid #E0E0E2;
   width: 300px;
   height: 150px;
   border-radius: 0px 0px 0px 15px;
 }
 
-.item {
-  background-color: #f2f2f2;
+.item{
+  background-color: #F2F2F2;
   margin-top: 15px;
   width: 84px;
   height: 84px;
   margin-right: 55px;
   border-radius: 100%;
+
 }
 
-.item-pishnhad {
+.item-pishnhad{
   margin-top: 12px;
   width: 60px;
   height: 60px;
@@ -933,32 +931,30 @@ swiper-slide img {
   border-radius: 10%;
 }
 
-.item-text {
+.item-text{
   font-size: 18px;
   margin-top: 12px;
   margin-right: 48px;
   color: #6e6e6e;
 }
 
-#tablet,
-#panke {
+#tablet , #panke{
   margin-right: 80px;
 }
 
-#docharkhe {
+#docharkhe{
   margin-right: 70px;
 }
 
-#short {
+#short{
   margin-right: 60px;
 }
 
-#motor,
-#jorab {
+#motor , #jorab{
   margin-right: 57px;
 }
 
-#ps5 {
+#ps5{
   margin-right: 60px;
 }
 /* SECTION (pishnahadat DIGIKALA) END */
@@ -968,12 +964,12 @@ swiper-slide img {
   display: flex;
   flex-direction: row;
   height: 250px;
-  border: 1px solid #e0e0e2;
+  border: 1px solid #E0E0E2;
   border-radius: 15px;
   position: relative;
 }
 
-.title-brand {
+.title-brand{
   padding-top: 20px;
 }
 
@@ -985,39 +981,39 @@ swiper-slide img {
   right: 600px;
 }
 
-.title-brand i {
+.title-brand i{
   position: absolute;
   right: 575px;
   top: 31px;
 }
 
-.brand {
+.brand{
   display: flex;
   flex-direction: row;
   margin-top: 50px;
 }
 
-.item-brand {
+.item-brand{
   width: 162px;
   margin-top: 20px;
   border-left: 1px solid #e5e5ed;
 }
 
-.brand-img {
+.brand-img{
   width: 110px;
   width: 110px;
   margin-right: 25px;
   margin-top: 50px;
 }
 
-#samsong {
+#samsong{
   border-left: none;
   width: 150px;
   height: 150px;
   margin-right: 25px;
 }
 
-#power {
+#power{
   margin-top: 90px;
 }
 /* SECTION BRANDS END */
@@ -1027,47 +1023,48 @@ swiper-slide img {
   display: grid;
   grid-template-columns: 340px 340px 340px 340px;
   height: 400px;
-  border: 1px solid #e0e0e2;
+  border: 1px solid #E0E0E2;
   border-radius: 15px;
   margin-top: 30px;
 }
 
-.title-phone h2 {
+.title-phone h2{
   font-size: 20px;
   margin-top: 20px;
   margin-right: 20px;
 }
 
-.title-phone-two {
+.title-phone-two{
   margin-right: 3px;
   color: #6e6e6e;
 }
 
-.images-phone {
+
+.images-phone{
   display: grid;
   grid-template-columns: 0.1fr 0.1fr;
   margin-top: 15px;
 }
 
-.phone-cover {
-  border-left: 1px solid #e0e0e2;
+.phone-cover{
+  border-left: 1px solid #E0E0E2;
 }
 
-.images-phone img {
+.images-phone img{
   margin-right: 15px;
   padding-bottom: 10px;
   width: 126px;
   height: 126px;
 }
 
-.moshahede-phone a p {
+.moshahede-phone a p{
   color: #16acbc;
   margin-right: 120px;
   margin-top: 10px;
   position: relative;
 }
 
-.moshahede-phone i {
+.moshahede-phone i{
   font-size: 10px;
   position: absolute;
   right: 50px;
@@ -1088,20 +1085,21 @@ swiper-slide img {
 .right-plus{
   display: flex;
   flex-direction: column;
+
 }
 
-.right-plus img {
+.right-plus img{
   margin-top: 40px;
   margin-right: 30px;
 }
 
-.right-plus h3 {
+.right-plus h3{
   color: #ffff;
   margin-right: 30px;
   font-weight: 900;
 }
 
-.right-plus .ozviat {
+.right-plus .ozviat{
   padding: 7px 10px;
   width: 100px;
   height: 40px;
@@ -1109,20 +1107,21 @@ swiper-slide img {
   margin-top: 20px;
   margin-right: 30px;
   border-radius: 10px;
+
 }
 
-.ozviat a {
+.ozviat a{
   color: #ffff;
 }
 
-.ozviat i {
+.ozviat i{
   color: #ffff;
   position: absolute;
   right: 95px;
   top: 142px;
 }
 
-.plus-right img {
+.plus-right img{
   width: 372px;
   height: 279px;
   position: absolute;
@@ -1145,50 +1144,51 @@ swiper-slide img {
   position: relative;
 }
 
-.all-left {
+.all-left{
   display: flex;
   flex-direction: column;
   user-select: none;
 }
 
-.top-plus {
+.top-plus{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.matn-rast i {
+.matn-rast i{
   position: absolute;
   top: 25px;
   right: 10px;
   color: #941b80;
 }
 
-.matn-rast h4 {
+.matn-rast h4{
   margin-top: 19px;
   margin-right: 30px;
   font-weight: 900;
 }
 
-.top-plus a {
+.top-plus a{
   margin-top: 10px;
   margin-right: 700px;
   color: #941b80;
 }
 
-.chevron {
+.chevron{
   margin-top: 10px;
   font-size: 12px;
   color: #941b80;
+
 }
 
-.img-plus {
+.img-plus{
   display: grid;
   grid-template-columns: 150px 150px 150px 150px 150px 150px;
   margin-top: 20px;
 }
 
-.img-plus img {
+.img-plus img{
   width: 116px;
   height: 116px;
   padding-right: 10px;
@@ -1206,8 +1206,8 @@ swiper-slide img {
   margin-top: 30px;
   height: 150px;
   border-radius: 15px;
-  background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%),
-    radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+  background: linear-gradient(76.02deg,#35a6c8 33.32%,#007295 71.55%),radial-gradient(21.29% 87.33% at 50% 50.67%,#7cf2f6 0,#35a6c8 100%);
+  
 }
 
 /* RIGHT DIGICLUB START */
@@ -1228,7 +1228,7 @@ swiper-slide img {
   padding-right: 90px;
 }
 
-.left-club img {
+.left-club img{
   border-radius: 10px;
   width: 220px;
   height: 80px;
@@ -4302,6 +4302,7 @@ swiper-slide img {
 /* css code properties logos [END] */
 /* code css properties footer-container [END] */
 /* code css properties footer [END] */
+
 
 /* css codeproperties hedfon-suuport [START] */
 
