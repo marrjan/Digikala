@@ -507,6 +507,12 @@ picture{
 /* SECTION STORYS END */
 
 /* SECTION SWIPER SLIDE 1 START */
+
+.container-slider{
+  width: 1360px;
+  margin: 0 auto;
+}
+
 swiper-container {
   width: 100%;
   height: 100%;
@@ -4295,12 +4301,12 @@ swiper-slide img {
 
 
 /* css codeproperties hedfon-suuport [START] */
+
 #hedfon-suuport img {
   position: fixed;
+  z-index: 2;
   right: 1270px;
   top: 553px;
-  left: 0;
-  bottom: 0;
   background-color: red;
   border: 1px solid red;
   border-radius: 25px;
