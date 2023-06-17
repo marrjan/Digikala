@@ -8,10 +8,13 @@
   font-family: yekan, sans-serif;
 }
 
+/* body START */
 body {
   position: relative;
 }
+/* body END */
 
+/* css code properties tamam a ha v li ha [START] */
 a {
   text-decoration: none;
   color: black;
@@ -20,7 +23,7 @@ a {
 li {
   list-style: none;
 }
-
+/* css code properties tamam a ha v li ha [END] */
 
 .container{
   width: 1350px;
@@ -33,6 +36,7 @@ li {
   font-weight: 700;
 }
 
+/* css code root project [START] */
 :root {
   --background-footer--: #f1f2f4;
   --background-paszaminha--: #fff;
@@ -45,6 +49,7 @@ li {
   --color-border--: #E0E0E2;
   --width-aks-ha-mhasolast-montakab--: 145px;
 }
+/* css code root project [END] */
 
 /* css code properties header [START] */
 #header {
