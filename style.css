@@ -6,6 +6,7 @@
   box-sizing: border-box;
   direction: rtl;
   font-family: yekan, sans-serif;
+  transition-property:all ;
 }
 /* body start */
 body {
@@ -198,21 +199,18 @@ li {
   background-color: #ffffff;
   text-align: right;
   position: absolute;
-  top: 35px;
+  top: 37px;
   right: 10px;
   left: -50px;
   width: max-content;
-  display: none;
   visibility: hidden;
   transition-property: all;
-  transition-delay: 10s;
-  transition-duration: 10s;
-
+  transition-delay: 0.1s;
 }
 
 .head1:hover ul {
   visibility: visible;
-  display: block;
+  opacity: 1;
 }
 
 .head1 > ul > li {
@@ -243,6 +241,7 @@ li {
   visibility: hidden;
   opacity: 0;
   width: 1000px;
+
 }
 
 .head1 > ul > li:hover ul {
