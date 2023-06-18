@@ -482,6 +482,7 @@ li {
 /* /css code properties ghsmat-down [END] */
 /* css code properties container [END] */
 /* css code properies header [END] */
+
 /* SECTION STORYS START */
 .more-option-two{
   display: flex;
@@ -496,7 +497,6 @@ picture{
   width: 79px;
   height: 78px;
   display: inline-block;
-  background-color: red;
   border-radius: 50%;
   padding-right: 4px;
   padding-top: 4px;
@@ -506,6 +506,8 @@ picture{
 .story-img{
   width: 70px;
   height: 70px;
+  padding: 3px;
+  border: 2px solid red;
   border-radius: 50%;
 }
 /* SECTION STORYS END */
@@ -4305,19 +4307,19 @@ swiper-slide img {
 
 
 /* css codeproperties hedfon-suuport [START] */
-#mkl{
+/* #mkl{
   position: relative;
 }
 #hedfon-suuport{
   position: relative;
   width: 10px;
-  /* position: fixed; */
-  /* z-index: 2; */
-  /* top: 100px; */
-  /* right: 100px; */
-}
-#hedfon-suuport img {
-  /* position: absolute; */
+  position: fixed;
+  z-index: 2;
+  top: 100px;
+  right: 100px;
+} */
+#hedfon-suuport{
+  position: absolute;
   position:fixed;
   /* width: 10px; */
   z-index: 2;
