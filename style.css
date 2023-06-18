@@ -6,7 +6,7 @@
   box-sizing: border-box;
   direction: rtl;
   font-family: yekan, sans-serif;
-  transition-property:all ;
+  transition-property: all;
 }
 /* body start */
 body {
@@ -25,7 +25,7 @@ li {
 }
 /* css coed properties tamam a ha v li ha [END] */
 
-.container{
+.container {
   width: 1350px;
   margin: 0 auto;
 }
@@ -43,10 +43,10 @@ li {
   --container-width--: 1350px;
   --padding-img-namad-v-kasbokar-darbaksh-atmad: 13px 20px 13px 20px;
   --color-matn-bishtar: #19bfd3;
-  --font-family--:sans-serif;
+  --font-family--: sans-serif;
   --font-family--: sans-serif;
   --margin-right--: 15px;
-  --color-border--: #E0E0E2;
+  --color-border--: #e0e0e2;
   --width-aks-ha-mhasolast-montakab--: 145px;
 }
 /* css code properties root [END] */
@@ -199,7 +199,7 @@ li {
   background-color: #ffffff;
   text-align: right;
   position: absolute;
-  top: 37px;
+  top: 35.1px;
   right: 10px;
   left: -50px;
   width: max-content;
@@ -234,24 +234,23 @@ li {
   text-align: right;
   position: absolute;
   top: 0px;
-  right: 210.5px;
+  right: 210px;
   left: -50px;
   width: max-content;
   display: none;
   visibility: hidden;
   opacity: 0;
   width: 1000px;
-
 }
 
 .head1 > ul > li:hover ul {
   visibility: visible;
-  display:block;
+  display: block;
   opacity: 1;
   color: black;
 }
 
-.head1 > ul > li > ul >p{
+.head1 > ul > li > ul > p {
   margin-right: 20px;
   margin-top: 10px;
 }
@@ -267,21 +266,21 @@ li {
   display: flex;
   flex-direction: column;
 }
-.rhadif-1 > h3{
+.rhadif-1 > h3 {
   margin-top: 15px;
   margin-right: 18px;
 }
-.rhadif-1 > h3 > span{
+.rhadif-1 > h3 > span {
   margin-left: 8px;
   color: red;
 }
-.rhadif-1 > h3:hover{
+.rhadif-1 > h3:hover {
   color: red;
 }
-.rhadif-1 > span{
+.rhadif-1 > span {
   margin-right: 18px;
 }
-.rhadif-1 > span:hover{
+.rhadif-1 > span:hover {
   color: red;
 }
 /* css code properties rhadif-1 [END] */
@@ -291,21 +290,21 @@ li {
   display: flex;
   flex-direction: column;
 }
-.rhadif-2 > h3{
+.rhadif-2 > h3 {
   margin-top: 15px;
   margin-right: 18px;
 }
-.rhadif-2 > h3 > span{
+.rhadif-2 > h3 > span {
   margin-left: 8px;
   color: red;
 }
-.rhadif-2 > h3:hover{
+.rhadif-2 > h3:hover {
   color: red;
 }
-.rhadif-2 > span{
+.rhadif-2 > span {
   margin-right: 18px;
 }
-.rhadif-2 > span:hover{
+.rhadif-2 > span:hover {
   color: red;
 }
 /* css code properties rhadif-2 [END] */
@@ -317,23 +316,22 @@ li {
   text-align: right;
   margin-top: 12px;
   margin-right: 10px;
-
 }
 
-.rhadif-3 > h3{
+.rhadif-3 > h3 {
   margin-right: 20px;
 }
-.rhadif-3 > h3 > span{
+.rhadif-3 > h3 > span {
   margin-left: 8px;
   color: red;
 }
-.rhadif-3 > h3:hover{
+.rhadif-3 > h3:hover {
   color: red;
 }
-.rhadif-3 > span{
+.rhadif-3 > span {
   margin-right: 25px;
 }
-.rhadif-3 > span:hover{
+.rhadif-3 > span:hover {
   color: red;
 }
 /* css code properties rhadif-3 [END] */
@@ -346,10 +344,10 @@ li {
   margin-top: 12px;
   margin-right: 10px;
 }
-.rhadif-4 > span{
+.rhadif-4 > span {
   margin-right: 18px;
 }
-.rhadif-4 > span:hover{
+.rhadif-4 > span:hover {
   color: red;
 }
 /* css code properties rhadif-4 [END] */
@@ -484,7 +482,7 @@ li {
 /* css code properies header [END] */
 
 /* SECTION STORYS START */
-.more-option-two{
+.more-option-two {
   display: flex;
   flex-direction: row;
   padding: 30px 10px 60px 15px;
@@ -493,17 +491,16 @@ li {
   padding-top: 200px;
 }
 
-picture{
+picture {
   width: 79px;
   height: 78px;
   display: inline-block;
   border-radius: 50%;
   padding-right: 4px;
   padding-top: 4px;
-  
 }
 
-.story-img{
+.story-img {
   width: 70px;
   height: 70px;
   padding: 3px;
@@ -514,7 +511,7 @@ picture{
 
 /* SECTION SWIPER SLIDE 1 START */
 
-.container-slider{
+.container-slider {
   width: 1360px;
   margin: 0 auto;
 }
@@ -522,7 +519,6 @@ picture{
 swiper-container {
   width: 100%;
   height: 100%;
-  
 }
 
 swiper-slide {
@@ -534,7 +530,7 @@ swiper-slide {
   align-items: center;
 }
 
-.slider-one img{
+.slider-one img {
   margin-top: 150px;
 }
 
@@ -547,7 +543,7 @@ swiper-slide img {
 /* SECTION SWIPER SLIDE 1 END */
 
 /* SECTION (anave mahsoolat) START */
-.more-option{
+.more-option {
   display: flex;
   flex-direction: row;
   padding: 60px 50px 60px 50px;
@@ -555,23 +551,23 @@ swiper-slide img {
   width: 1350px;
 }
 
-.icon .imgicon{
+.icon .imgicon {
   width: 57px;
   height: 57px;
 }
 
-.icon{
+.icon {
   padding-left: 80px;
   padding-right: 80px;
 }
 
-.icontext{
+.icontext {
   font-size: 14px;
   text-align: center;
   margin-right: 65px;
 }
 
-.circle{
+.circle {
   width: 52px;
   height: 52px;
   border-radius: 50%;
@@ -582,7 +578,7 @@ swiper-slide img {
 /* SECTION (anave mahsoolat) END */
 
 /* SECTION SWIPER SLIDE 2 START */
-.special{
+.special {
   width: 1350px;
   margin-right: 50px;
   margin-left: 50px;
@@ -592,15 +588,14 @@ swiper-slide img {
   margin: 0 auto;
 }
 
-.right img:nth-child(1){
+.right img:nth-child(1) {
   width: 80px;
   margin-top: 20px;
   margin-right: 20px;
- 
 }
 
-.right img:nth-child(2){
-  width:120px;
+.right img:nth-child(2) {
+  width: 120px;
   margin-right: 14px;
 }
 
@@ -618,7 +613,7 @@ swiper-slide img {
   align-items: center;
 }
 
-.special .slider .baner{
+.special .slider .baner {
   width: 10%;
   height: 218px;
   display: block;
@@ -627,30 +622,29 @@ swiper-slide img {
   background-repeat: no-repeat;
 }
 
-.slider{
- width: 80px;
+.slider {
+  width: 80px;
 }
 
-.special .slider{
+.special .slider {
   display: flex;
   width: 100%;
 }
 
-.right .showall{
+.right .showall {
   color: #fff;
   margin-top: 1px;
   margin-right: 30px;
   position: relative;
 }
 
-.showall i{
+.showall i {
   font-size: 10px;
   position: absolute;
   right: 75px;
   bottom: 6px;
-  
 }
- 
+
 @media (max-width: 760px) {
   .swiper-button-next {
     right: 20px;
@@ -661,45 +655,40 @@ swiper-slide img {
     left: 20px;
     transform: rotate(90deg);
   }
-} 
+}
 
-.swiper-slide .img img{
+.swiper-slide .img img {
   width: 150px;
   height: 220px;
-  
+
   object-fit: contain;
-  
 }
 
-.swiper-slide{
+.swiper-slide {
   margin-top: 40px;
   background-color: #fff;
-  
- 
 }
 
-.price{
+.price {
   display: flex;
 }
 
-
-.price .number{
+.price .number {
   margin-right: 130px;
 }
 
-.price .precent{
+.price .precent {
   background-color: #ef394e;
   padding: 1px 1px;
   font-size: 13px;
   margin-right: 5px;
   border-radius: 10px;
   color: #fff;
-  
 }
 /* SECTION SWIPER SLIDE 2 END */
 
 /* SECTION (shegeft angiz supermarketi) START */
-.super-marketi{
+.super-marketi {
   width: 1350px;
   height: 150px;
   margin-top: 30px;
@@ -708,36 +697,35 @@ swiper-slide img {
   position: relative;
 }
 
-.super-right{
+.super-right {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.super-right .sabad{
+.super-right .sabad {
   margin-top: 35px;
   margin-right: 35px;
 }
 
-.super-right .superi{
+.super-right .superi {
   margin-top: 35px;
   margin-right: 15px;
 }
 
-.super-right .takhfif{
+.super-right .takhfif {
   margin-right: 21px;
   margin-top: 25px;
   background-color: rgb(4, 159, 4);
   padding: 3px 13px;
   border-radius: 32px;
-  
 }
 
-.takhfif a h3{
+.takhfif a h3 {
   color: #fff;
 }
 
-.super-left{
+.super-left {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -746,14 +734,14 @@ swiper-slide img {
   top: 35px;
 }
 
-.super-left img{
+.super-left img {
   width: 80px;
   border-radius: 50%;
   padding-left: 5px;
   padding-right: 5px;
 }
 
-.super-left .darsad-takhfif{
+.super-left .darsad-takhfif {
   position: absolute;
   top: 50px;
   color: #fff;
@@ -762,7 +750,7 @@ swiper-slide img {
   border-radius: 20px;
 }
 
-.super-left .kalaha{
+.super-left .kalaha {
   position: absolute;
   background-color: #fff;
   padding: 6px 22px;
@@ -771,12 +759,12 @@ swiper-slide img {
   position: relative;
 }
 
-.super-left .kalaha a{
+.super-left .kalaha a {
   color: rgb(4, 159, 4);
   font-size: 12px;
 }
 
-.super-left .kalaha i{
+.super-left .kalaha i {
   color: rgb(4, 159, 4);
   font-size: 15px;
   position: absolute;
@@ -786,7 +774,7 @@ swiper-slide img {
 /* SECTION (shegeft angiz supermarketi) END */
 
 /* SECTION 4 BANNERS START */
-.banners{
+.banners {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -794,7 +782,7 @@ swiper-slide img {
   margin-right: 30px;
 }
 
-.banners a img{
+.banners a img {
   width: 320px;
   height: 250px;
   padding-left: 5px;
@@ -804,17 +792,17 @@ swiper-slide img {
 /* SECTION 4 BANNERS START */
 
 /* SECTION (dastebandi kalaha) START */
-.all-section{
+.all-section {
   margin-top: 40px;
 }
 
-.dastebandi-title h3{
+.dastebandi-title h3 {
   display: flex;
   justify-content: center;
   font-size: 25px;
 }
 
-.dastebandi-photos{
+.dastebandi-photos {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -822,20 +810,20 @@ swiper-slide img {
   margin-top: 20px;
 }
 
-.boxes{
+.boxes {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.boxes img{
+.boxes img {
   width: 170px;
   height: 170px;
   margin-left: 20px;
   margin-right: 20px;
 }
 
-.boxes p{
+.boxes p {
   align-items: center;
   font-weight: 900;
   margin-left: 20px;
@@ -843,21 +831,20 @@ swiper-slide img {
   margin-top: 5px;
 }
 
-.boxtwo{
+.boxtwo {
   margin-top: 40px;
 }
 /* SECTION (dastebandi kalaha) END */
 
 /* SECTION 2 BANNERS START */
-.banners-two{
+.banners-two {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-top: 60px;
-  
 }
 
-.banners-two img{
+.banners-two img {
   width: 640px;
   height: 250px;
   margin-right: 20px;
@@ -866,66 +853,64 @@ swiper-slide img {
 /* SECTION 2 BANNERS END */
 
 /* SECTION (pishnahadat DIGIKALA) START */
-.pishnahadat-photos{
+.pishnahadat-photos {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   margin-top: 30px;
-  
 }
 
-.pishnahadat-photos-two{
+.pishnahadat-photos-two {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
 }
 
-.pishnahad-right{
-  border: 1px solid #E0E0E2;
+.pishnahad-right {
+  border: 1px solid #e0e0e2;
   width: 300px;
   height: 150px;
   border-radius: 0px 15px 0px 0px;
 }
-.pishnahad-right-two{
-  border: 1px solid #E0E0E2;
+.pishnahad-right-two {
+  border: 1px solid #e0e0e2;
   width: 300px;
   height: 150px;
   border-radius: 0px 0px 15px 0px;
 }
 
-.pishnahad-center{
-  border: 1px solid #E0E0E2;
+.pishnahad-center {
+  border: 1px solid #e0e0e2;
   width: 300px;
   height: 150px;
 }
 
-.pishnahad-left{
-  border: 1px solid #E0E0E2;
+.pishnahad-left {
+  border: 1px solid #e0e0e2;
   width: 300px;
   height: 150px;
   border-radius: 15px 0px 0px 0px;
 }
 
-.pishnahad-left-two{
-  border: 1px solid #E0E0E2;
+.pishnahad-left-two {
+  border: 1px solid #e0e0e2;
   width: 300px;
   height: 150px;
   border-radius: 0px 0px 0px 15px;
 }
 
-.item{
-  background-color: #F2F2F2;
+.item {
+  background-color: #f2f2f2;
   margin-top: 15px;
   width: 84px;
   height: 84px;
   margin-right: 55px;
   border-radius: 100%;
-
 }
 
-.item-pishnhad{
+.item-pishnhad {
   margin-top: 12px;
   width: 60px;
   height: 60px;
@@ -933,45 +918,47 @@ swiper-slide img {
   border-radius: 10%;
 }
 
-.item-text{
+.item-text {
   font-size: 18px;
   margin-top: 12px;
   margin-right: 48px;
   color: #6e6e6e;
 }
 
-#tablet , #panke{
+#tablet,
+#panke {
   margin-right: 80px;
 }
 
-#docharkhe{
+#docharkhe {
   margin-right: 70px;
 }
 
-#short{
+#short {
   margin-right: 60px;
 }
 
-#motor , #jorab{
+#motor,
+#jorab {
   margin-right: 57px;
 }
 
-#ps5{
+#ps5 {
   margin-right: 60px;
 }
 /* SECTION (pishnahadat DIGIKALA) END */
 
 /* SECTION BRANDS START */
-.brands{
+.brands {
   display: flex;
   flex-direction: row;
   height: 250px;
-  border: 1px solid #E0E0E2;
+  border: 1px solid #e0e0e2;
   border-radius: 15px;
   position: relative;
 }
 
-.title-brand{
+.title-brand {
   padding-top: 20px;
 }
 
@@ -983,90 +970,89 @@ swiper-slide img {
   right: 600px;
 }
 
-.title-brand i{
+.title-brand i {
   position: absolute;
   right: 575px;
   top: 31px;
 }
 
-.brand{
+.brand {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
 }
 
-.item-brand{
+.item-brand {
   width: 162px;
   margin-top: 20px;
   border-left: 1px solid #e5e5ed;
 }
 
-.brand-img{
+.brand-img {
   width: 110px;
   width: 110px;
   margin-right: 25px;
   margin-top: 50px;
 }
 
-#samsong{
+#samsong {
   border-left: none;
   width: 150px;
   height: 150px;
   margin-right: 25px;
 }
 
-#power{
+#power {
   margin-top: 90px;
 }
 /* SECTION BRANDS END */
 
 /* SECTION (mahsolat pishrafte) START */
-.phones{
+.phones {
   display: grid;
   grid-template-columns: 340px 340px 340px 340px;
   height: 400px;
-  border: 1px solid #E0E0E2;
+  border: 1px solid #e0e0e2;
   border-radius: 15px;
   margin-top: 30px;
 }
 
-.title-phone h2{
+.title-phone h2 {
   font-size: 20px;
   margin-top: 20px;
   margin-right: 20px;
 }
 
-.title-phone-two{
+.title-phone-two {
   margin-right: 3px;
   color: #6e6e6e;
 }
 
-
-.images-phone{
+.images-phone {
   display: grid;
   grid-template-columns: 0.1fr 0.1fr;
   margin-top: 15px;
 }
 
-.phone-cover{
-  border-left: 1px solid #E0E0E2;
+.phone-cover {
+  border-left: 1px solid #e0e0e2;
 }
 
-.images-phone img{
+.images-phone img {
   margin-right: 15px;
   padding-bottom: 10px;
   width: 126px;
   height: 126px;
 }
 
-.moshahede-phone a p{
+.moshahede-phone a p {
   color: #16acbc;
   margin-right: 120px;
   margin-top: 10px;
   position: relative;
 }
 
-.moshahede-phone i{
+.moshahede-phone i {
   font-size: 10px;
   position: absolute;
   right: 50px;
@@ -1075,7 +1061,7 @@ swiper-slide img {
 /* SECTION (mahsolat pishrafte) END */
 
 /* SECTION DIGIPLUS START */
-.digi-plus{
+.digi-plus {
   display: flex;
   height: 400px;
   background-color: #941b80;
@@ -1084,24 +1070,23 @@ swiper-slide img {
   position: relative;
 }
 /* RIGHT DIGIPLUS START */
-.right-plus{
+.right-plus {
   display: flex;
   flex-direction: column;
-
 }
 
-.right-plus img{
+.right-plus img {
   margin-top: 40px;
   margin-right: 30px;
 }
 
-.right-plus h3{
+.right-plus h3 {
   color: #ffff;
   margin-right: 30px;
   font-weight: 900;
 }
 
-.right-plus .ozviat{
+.right-plus .ozviat {
   padding: 7px 10px;
   width: 100px;
   height: 40px;
@@ -1109,21 +1094,20 @@ swiper-slide img {
   margin-top: 20px;
   margin-right: 30px;
   border-radius: 10px;
-
 }
 
-.ozviat a{
+.ozviat a {
   color: #ffff;
 }
 
-.ozviat i{
+.ozviat i {
   color: #ffff;
   position: absolute;
   right: 95px;
   top: 142px;
 }
 
-.plus-right img{
+.plus-right img {
   width: 372px;
   height: 279px;
   position: absolute;
@@ -1132,7 +1116,7 @@ swiper-slide img {
 /* RIGHT DIGIPLUS END */
 
 /* LEFT DIGIPLUS START */
-.left-plus{
+.left-plus {
   display: flex;
   flex-direction: column;
   display: grid;
@@ -1146,51 +1130,50 @@ swiper-slide img {
   position: relative;
 }
 
-.all-left{
+.all-left {
   display: flex;
   flex-direction: column;
   user-select: none;
 }
 
-.top-plus{
+.top-plus {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.matn-rast i{
+.matn-rast i {
   position: absolute;
   top: 25px;
   right: 10px;
   color: #941b80;
 }
 
-.matn-rast h4{
+.matn-rast h4 {
   margin-top: 19px;
   margin-right: 30px;
   font-weight: 900;
 }
 
-.top-plus a{
+.top-plus a {
   margin-top: 10px;
   margin-right: 700px;
   color: #941b80;
 }
 
-.chevron{
+.chevron {
   margin-top: 10px;
   font-size: 12px;
   color: #941b80;
-
 }
 
-.img-plus{
+.img-plus {
   display: grid;
   grid-template-columns: 150px 150px 150px 150px 150px 150px;
   margin-top: 20px;
 }
 
-.img-plus img{
+.img-plus img {
   width: 116px;
   height: 116px;
   padding-right: 10px;
@@ -1200,7 +1183,7 @@ swiper-slide img {
 /* SECTION DIGIPLUS END */
 
 /* SECTION DIGICLUB START */
-.digi-club{
+.digi-club {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1208,12 +1191,12 @@ swiper-slide img {
   margin-top: 30px;
   height: 150px;
   border-radius: 15px;
-  background: linear-gradient(76.02deg,#35a6c8 33.32%,#007295 71.55%),radial-gradient(21.29% 87.33% at 50% 50.67%,#7cf2f6 0,#35a6c8 100%);
-  
+  background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%),
+    radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
 }
 
 /* RIGHT DIGICLUB START */
-.right-club img{
+.right-club img {
   margin-right: 50px;
   width: 119px;
   height: 33px;
@@ -1221,7 +1204,7 @@ swiper-slide img {
 /* RIGHT DIGICLUB END */
 
 /* LEFT DIGICLUB START */
-.left-club{
+.left-club {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -1230,34 +1213,33 @@ swiper-slide img {
   padding-right: 90px;
 }
 
-.left-club img{
+.left-club img {
   border-radius: 10px;
   width: 220px;
   height: 80px;
   padding-right: 30px;
   padding-left: 30px;
-  
 }
 
-.left-club span{
+.left-club span {
   background-color: #ffff;
   padding: 28px 20px;
 }
 
-.left-club .charkh{
- position: absolute;
- right: 40px;
- top: px;
- border-radius: 10px;
+.left-club .charkh {
+  position: absolute;
+  right: 40px;
+  top: px;
+  border-radius: 10px;
 }
 
-.left-club .mamor{
+.left-club .mamor {
   position: absolute;
   border-radius: 10px;
   right: 290px;
 }
 
-.left-club .jayeze{
+.left-club .jayeze {
   position: absolute;
   border-radius: 10px;
   right: 520px;
@@ -1268,55 +1250,53 @@ swiper-slide img {
 /* Style CSS safhe 2 START */
 
 /* SECTION 2 START */
-.banner-mobile{
+.banner-mobile {
   margin-top: 20px;
 }
 
-.banner-mobile img{
+.banner-mobile img {
   width: 1264px;
   height: 158px;
   margin-right: 40px;
-  
 }
 /* SECTION 2 END */
 
 /* SECTION 3 START */
-.anvae-mobile{
+.anvae-mobile {
   display: flex;
   flex-direction: row;
   height: 400px;
-  border: 1px solid #E0E0E2;
+  border: 1px solid #e0e0e2;
   border-radius: 15px;
   position: relative;
-  
 }
 
-.part-one{
+.part-one {
   display: flex;
   flex-direction: column;
 }
 
-.anvae-mobile img{
+.anvae-mobile img {
   width: 279px;
   height: 279px;
 }
 
-.title-mobile{
+.title-mobile {
   display: flex;
   font-weight: 800;
   margin-top: 10px;
   margin-right: 15px;
 }
 
-.mobiles-one p{
+.mobiles-one p {
   color: #35a6c8;
 }
 
-.mobiles-two p{
+.mobiles-two p {
   color: #35a6c8;
 }
 
-.mobiles-one i{
+.mobiles-one i {
   color: #35a6c8;
   font-size: 11px;
   position: absolute;
@@ -1324,7 +1304,7 @@ swiper-slide img {
   right: 370px;
 }
 
-.mobiles-two i{
+.mobiles-two i {
   color: #35a6c8;
   font-size: 11px;
   position: absolute;
@@ -1332,30 +1312,30 @@ swiper-slide img {
   right: 1010px;
 }
 
-.mobiles img{
+.mobiles img {
   margin-top: 20px;
-  border-left: 1px solid #E0E0E2;
+  border-left: 1px solid #e0e0e2;
   margin-right: 40px;
 }
 
-.mobiles-two{
+.mobiles-two {
   display: grid;
-  grid-template-columns: repeat(2,0.1fr);
+  grid-template-columns: repeat(2, 0.1fr);
 }
 
-.mobiles-one{
+.mobiles-one {
   display: grid;
-  grid-template-columns: repeat(2,0.1fr);
+  grid-template-columns: repeat(2, 0.1fr);
 }
 
-.mobiles-two img{
+.mobiles-two img {
   width: 131px;
   height: 131px;
   margin-top: 40px;
   margin-right: 30px;
 }
 
-.mobiles-one img{
+.mobiles-one img {
   width: 131px;
   height: 131px;
   margin-top: 40px;
@@ -1366,261 +1346,257 @@ swiper-slide img {
 
 /* SECTION 5 START */
 
- .brand-ha{
-  border: 1px solid #E0E0E2;
+.brand-ha {
+  border: 1px solid #e0e0e2;
   height: 300px;
   border-radius: 15px;
- }
+}
 
- .title-braand{
+.title-braand {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   font-weight: 900;
   margin-top: 10px;
- }
-
- .phone-brands{
-  display: inline-flex;
-  flex-wrap: wrap;
-
 }
 
-.phone-brands img{
+.phone-brands {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.phone-brands img {
   width: 170px;
   height: 170px;
   margin-right: 80px;
 }
 
-.phone-brands p{
+.phone-brands p {
   margin-right: 140px;
 }
 /* SECTION 5 END */
- 
+
 /* SECTION 6 START */
 
-.qeymatha{
-  border: 1px solid #E0E0E2;
+.qeymatha {
+  border: 1px solid #e0e0e2;
   border-radius: 15px;
   height: 300px;
   margin-top: 30px;
 }
-.title-qeymat{
+.title-qeymat {
   display: flex;
   justify-content: center;
   margin-top: 30px;
 }
 
-.img-qeymat{
+.img-qeymat {
   display: flex;
   flex-wrap: wrap;
   margin-right: 190px;
   margin-top: 50px;
 }
 
-.img-qeymat img{
+.img-qeymat img {
   padding-left: 10px;
   padding-right: 10px;
 }
 /* SECTION 6 END */
 
 /* SECTION 8 START */
- .gooshi-vizhegi{
+.gooshi-vizhegi {
   display: flex;
   flex-direction: row;
   margin-top: 26px;
   margin-right: 250px;
- }
+}
 
- .gooshi-vizhegi img{
+.gooshi-vizhegi img {
   margin-top: 30px;
   margin-left: 18px;
   margin-right: 18px;
- }
+}
 
- .photoss img{
+.photoss img {
   border-radius: 10px;
- }
+}
 
- .photoss p{
+.photoss p {
   margin-right: 80px;
   font-weight: 500;
- }
+}
 
 /* SECTION 8 END */
 
 /* SECTION 9 START */
- .banerha{
+.banerha {
   display: flex;
   flex-direction: row;
   margin-top: 50px;
- }
+}
 
- .banerha img{
+.banerha img {
   width: 411px;
   height: 308px;
   border-radius: 10px;
   margin-left: 10px;
   margin-right: 20px;
- }
+}
 /* SECTION 9 END */
 
 /* SECTION 10 START */
- .baresi-goshi{
+.baresi-goshi {
   display: flex;
   flex-direction: row;
   height: 400px;
-  border: 1px solid #E0E0E2;
+  border: 1px solid #e0e0e2;
   border-radius: 15px;
   margin-top: 30px;
- }
+}
 
- .goshi-barik{
+.goshi-barik {
   display: flex;
   flex-direction: column;
-  border-left: 1px solid #E0E0E2;
- }
+  border-left: 1px solid #e0e0e2;
+}
 
- .goshi-barik-last{
+.goshi-barik-last {
   display: flex;
   flex-direction: column;
- }
+}
 
- .matn-baresi{
+.matn-baresi {
   margin-top: 10px;
   margin-right: 15px;
- }
+}
 
- .img-baresi{
+.img-baresi {
   margin-top: 50px;
   margin-right: 15px;
- }
+}
 
- .img-baresi img{
+.img-baresi img {
   width: 400px;
   height: 250px;
   border-radius: 5px;
   margin-left: 15px;
- }
+}
 
- .bishtar-baresi{
+.bishtar-baresi {
   display: flex;
   flex-direction: row;
- }
+}
 
- .bishtar-baresi p{
+.bishtar-baresi p {
   color: #19bfd3;
   margin-right: 180px;
- }
+}
 
- .bishtar-baresi i{
+.bishtar-baresi i {
   font-size: 11px;
   color: #19bfd3;
   margin-top: 7px;
   margin-right: 5px;
- }
+}
 
 /* SECTION 10 END */
 
 /* SECTION 11 START */
- .matn-akhar{
+.matn-akhar {
   display: flex;
   flex-direction: column;
   margin-right: 10px;
   height: 200px;
   position: relative;
   margin-top: 30px;
- }
+}
 
- .matn-akhar h1{
+.matn-akhar h1 {
   font-size: 40px;
   font-weight: bolder;
   color: #6e6e6e;
- }
+}
 
- .matn-akhar p{
+.matn-akhar p {
   color: #8d8c8c;
   font-size: 16px;
- }
+}
 
- .matn-akhar span{
+.matn-akhar span {
   color: #d4cfcf;
   font-size: 16px;
- }
+}
 
- .moshahede-last h2{
+.moshahede-last h2 {
   margin-top: 20px;
   color: #19bfd3;
- }
+}
 
- .moshahede-last i{
+.moshahede-last i {
   color: #19bfd3;
   position: absolute;
   right: 130px;
   bottom: 45px;
- }
+}
 /* SECTION 11 END */
 
 /* SECTION 12 START */
-.motedavel{
+.motedavel {
   display: flex;
   flex-direction: column;
   height: 300px;
   border-radius: 15px;
 }
 
-.matn-motedavel-one{
+.matn-motedavel-one {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
-.motedavel i{
- color: #19bfd3;
- margin-right: 20px;
- margin-top: 20px;
+.motedavel i {
+  color: #19bfd3;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
-.question{
+.question {
   width: 50px;
   height: 50px;
-  background-color: rgba(15,171,198,.051);
+  background-color: rgba(15, 171, 198, 0.051);
   display: inline-block;
   border-radius: 100%;
   margin-top: 20px;
 }
 
-.motedavel h2{
+.motedavel h2 {
   margin-top: 15px;
 }
 
-.matn-motedavel-two{
+.matn-motedavel-two {
   display: flex;
   flex-direction: column;
   justify-content: end;
 }
 
-.p-one{
+.p-one {
   font-size: 23px;
   margin-right: 20px;
-  border-bottom: 1px solid #E0E0E2;
+  border-bottom: 1px solid #e0e0e2;
   margin-top: 20px;
 }
 
-.p-two{
+.p-two {
   font-size: 23px;
   margin-right: 20px;
-  border-bottom: 1px solid #E0E0E2;
+  border-bottom: 1px solid #e0e0e2;
   margin-top: 40px;
 }
 /* SECTION 12 END */
 
 /* Style CSS safhe 2 END */
-
-
 
 /* css code properties porforosh [START] */
 #porforosh {
@@ -1997,7 +1973,7 @@ swiper-slide img {
   width: 1340px;
   text-align: center;
   margin: 0 auto;
-  border: 1px solid #E0E0E2;
+  border: 1px solid #e0e0e2;
   border-radius: 10px;
   position: relative;
 }
@@ -2008,17 +1984,15 @@ swiper-slide img {
   margin-bottom: 55px;
 }
 
-.onvan-montakab div{
+.onvan-montakab div {
   display: inline-flex;
 }
 
-.onvan-montakab img{
+.onvan-montakab img {
   position: absolute;
   right: 505px;
   top: 23px;
 }
-
-
 
 .onvan-montakab span {
   font-size: 1.5rem;
@@ -4305,35 +4279,37 @@ swiper-slide img {
 /* code css properties footer-container [END] */
 /* code css properties footer [END] */
 
-
 /* css codeproperties hedfon-suuport [START] */
-/* #mkl{
+#suuport-20 {
   position: relative;
-}
-#hedfon-suuport{
-  position: relative;
-  width: 10px;
   position: fixed;
-  z-index: 2;
-  top: 100px;
-  right: 100px;
-} */
-#hedfon-suuport{
-  position: absolute;
-  position:fixed;
-  /* width: 10px; */
-  z-index: 2;
-  /* top: -60px;
-  right: 1260px;
-  bottom: 0px;
-  left: 0px; */
-  right: 1270px;
-  top: 553px;
-  background-color: red;
-  border: 1px solid red;
-  border-radius: 25px;
-  padding: 7px;
+  padding: 5px;
+  z-index: 1;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  left: 50px;
+  bottom: 10px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.15;
+}
+#suupor-24 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#hedfon-suuport {
+  position: relative;
+  display: flex;
   cursor: pointer;
+}
+#hedfon-suuport img {
+  background-color: red;
+  padding: 7px;
+  border-radius: 25px;
+  width: 50px;
+
 }
 /* css code properties hedfon-suuport [END] */
 /* CSS STYLE END */
